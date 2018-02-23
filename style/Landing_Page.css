@@ -2,12 +2,11 @@ body {
   color: #000;
 }
 
-
 .hero-content {
   padding-top: 100px;
   padding-left: 20px;
   padding-right: 10px;
-  padding-bottom: 160px;
+  padding-bottom: 90px;
 }
 
 
@@ -69,7 +68,7 @@ h6 {
 
 
 /* Case Study Background colors */
-#one {
+.MountainRack {
   background-color: #E58F0D;
   padding-top: 27px;
 }
@@ -104,11 +103,40 @@ h6 {
   padding-bottom: 100px;
 }
 
+.carousel-inner img {
+  height: auto;
+  width: 100%;
+  overflow:hidden;
+}
 
-
+.btn,
+.btn:hover,
+.btn:focus {
+  font-family: 'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight: 600i;
+  font-size:18px;
+  color: #FFF;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #000;
+  border-color: #000;
+  border-radius: 0px 0px;
+  width: 150px;
+  margin-bottom: 40px;
+}
 
 #site-footer {
   background-color: #000000;
+}
+
+#site-footer .container i{
+  padding-top:30px;
+  padding-right:20px;
+  padding-bottom:20px;
+}
+
+#site-footer .container span {
+  font-size:14px;
 }
 
 
@@ -121,6 +149,13 @@ h6 {
     padding-right: 10px;
     padding-bottom: 260px;
   }
+
+  .btn,
+  .btn:hover,
+  .btn:focus {
+    width: 350px;
+    margin-bottom: 40px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -128,7 +163,6 @@ h6 {
   .hero-content {
     padding-top: 200px;
     padding-left: 40px;
-    padding-right: 20px;
     padding-bottom: 260px;
   }
   h1 {
@@ -144,6 +178,25 @@ h6 {
     font-size: 34px;
     line-height: 37px;
   }
+
+  .btn,
+  .btn:hover,
+  .btn:focus {
+    width: 450px;
+    margin-bottom: 40px;
+  }
+
+  #site-footer .container i:nth-child(1) {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    float: left;
+  }
+  #site-footer .container span {
+    float:left;
+    margin-left:40px;
+    margin-top:30px;
+  }
+
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -151,10 +204,42 @@ h6 {
   .navbar{
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-right:40px
   }
-  .navbar-brand{
+  .navbar-brand {
     padding-left: 20px;
   }
+  .navbar-nav > li {
+    display: inline-block;
+  }
+  .navbar-nav > li + li {
+    margin-left: 20px;
+  }
+  .navbar-nav > li > a {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000; /* IE8 proofing */
+    color: rgba(0,0,0,.75);
+    border-top: 1px solid black;
+  }
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    border-top: 4px solid;
+    background-color: transparent;
+    border-top-color: #000;
+    border-top-color: rgba(0,0,0,1);
+  }
+  .navbar-nav > .active > a,
+  .navbar-nav > .active > a:hover,
+  .navbar-nav > .active > a:focus {
+    color: #000;
+    border-top: 4px solid;
+    border-top-color: #000;
+  }
+
   h1,h2 {
     font-size:46px;
     line-height: 52px;
@@ -163,19 +248,8 @@ h6 {
     font-size: 46px;
     line-height: 52px;
   }
-  .content{
-
-  }
-  #one {
-    float: left;
-    width:42%;
-    border-right:50px solid #F5A623;
-  }
-  #two {
-    overflow:hidden;
-    max-width: 100%;
-    height: auto;
-
+  .rwd-line {
+    display:block;
   }
   h4 {
     font-size:18px;
@@ -195,12 +269,9 @@ h6 {
     padding-right:110px;
     padding-bottom:400px;
   }
-  .MountainRack {
+  .case-studies {
     padding-left: 40px;
     padding-right: 40px;
-  }
-  .MountainRack .rectangle {
-    background-color: transparent;
   }
 }
 
@@ -221,21 +292,7 @@ h6 {
     font-size: 46px;
     line-height: 52px;
   }
-  .content{
 
-  }
-  #one {
-    float: left;
-    width:42%;
-    border-right:50px solid #F5A623;
-  }
-  #two {
-    overflow:hidden;
-    display:block;
-    background-image:url("images/MR_Hero.png");
-    background-size:cover;
-
-  }
   h4 {
     font-size:21px;
     line-height: 30px;
@@ -254,11 +311,18 @@ h6 {
     padding-right:110px;
     padding-bottom:400px;
   }
-  .MountainRack {
+  .case-studies {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .MountainRack .rectangle {
-    background-color: transparent;
+  #site-footer .container i:nth-child(1) {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    float: left;
+  }
+  #site-footer .container span {
+    float:left;
+    margin-left:100px;
+    margin-top:30px;
   }
 }
