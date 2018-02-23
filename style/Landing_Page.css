@@ -313,10 +313,10 @@ margin-bottom: 100px;
     padding-right:110px;
     padding-bottom:400px;
   }
-  .case-studies {
-    padding-left: 40px;
-    padding-right: 40px;
+  .case-study {
+    max-width: 1200px;
   }
+
   #site-footer .container i:nth-child(1) {
     padding-left: 40px;
     padding-bottom: 20px;
