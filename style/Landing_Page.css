@@ -99,10 +99,6 @@ h6 {
   background-color: #4E8F9D;
 }
 
-.case-studies {
-  margin: auto;
-  width:1280px;
-}
 
 .case-studies i {
   position: relative;
@@ -287,6 +283,8 @@ h6 {
   .case-studies {
     padding-left: 40px;
     padding-right: 40px;
+    margin: auto;
+    width:1280px;
   }
 
   .MountainRack {
@@ -347,6 +345,12 @@ h6 {
     padding-bottom:400px;
   }
 
+  .case-studies {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+    width:1200px;
+  }
 
   #site-footer .container span {
     float:left;
