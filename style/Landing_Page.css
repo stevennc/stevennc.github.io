@@ -99,11 +99,18 @@ h6 {
   background-color: #4E8F9D;
 }
 
+.case-studies {
+  margin:auto;
+  width:100%;
+}
+
 .case-studies i {
   position: relative;
   top: 7px;
   left: 3px;
 }
+
+
 
 .case-study {
   margin-bottom: 100px;
