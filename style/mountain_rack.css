@@ -2,118 +2,74 @@ body {
   color: #000;
 }
 
-
-.hero-content {
-  margin-top:80px;
-  padding-top: 100px;
-  padding-left: 20px;
-  padding-right: 10px;
-  padding-bottom: 90px;
+.main-content img{
+  width:100%
 }
 
+.main-content h3 {
+  padding-top: 10px;
+}
+
+.hero-content img {
+  padding-top:50px;
+  width:100%;
+}
 
 h1 {
   font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
   font-weight: 700;
-  font-size:36px;
-  line-height: 35px;
-}
-h2 {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 28px;
+  font-size:24px;
 }
 
-.hero-content > h2 > a {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 28px;
-}
-
-h4, h5, h6 {
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-
-h4 {
-  font-family: 'Cormorant Garamond', serif;
+h2{
+  font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
-  font-weight: 600;
-  font-size:20px;
-  line-height: 35px;
+  font-weight: 700;
+  font-size:24px;
+  line-height: 27px;
 }
 
 h5 {
   font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 30px;
-}
-
-h6 {
-  font-family: 'Cormorant Garamond', serif;
   font-style:normal;
   font-weight: 500;
   font-size:16px;
-  line-height: 35px;
-  text-align: left;
+  line-height: 27px;
+}
+
+.header .title {
   padding-top: 20px;
+  text-align: center;
 }
 
-
-
-/* Case Study Background colors */
-.MountainRack {
-  background-color: #E58F0D;
-  padding-top: 27px;
+.container {
+  padding-top:10px;
 }
-.ExpertMe {
-  background-color: #273645;
-  padding-top: 27px;
-}
-.blocbox {
-  background-color: #317381;
-  padding-top: 27px;
+.subheader h3 {
+  margin-top:10px;
+  border-top: 1px solid;
 }
 
-/* Rectangle size & colors */
-.rectangle {
-  height: 40px;
-  width: 100%;
-}
-.MountainRack .rectangle {
-  background-color: #F5A623;
-}
-.ExpertMe .rectangle {
-  background-color: #2F4A65;
-}
-.blocbox .rectangle {
-  background-color: #4E8F9D;
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-weight: 600i;
+  font-size: 20px;
+  line-height: 28px;
+  margin-left: 20px;
 }
 
-.case-studies i {
-  position: relative;
-  top: 7px;
-  left: 3px;
+p {
+  font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size:16px;
+  line-height: 27px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.case-study {
-  margin-bottom: 100px;
-}
-
-.carousel-inner img {
-  height: auto;
-  width: 100%;
-  overflow:hidden;
-}
 
 .btn,
 .btn:hover,
@@ -155,12 +111,12 @@ h6 {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  .hero-content {
+  /*.hero-content {
     padding-top: 200px;
     padding-left: 30px;
     padding-right: 10px;
     padding-bottom: 260px;
-  }
+  }*/
 
   .btn,
   .btn:hover,
@@ -172,24 +128,12 @@ h6 {
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  .hero-content {
+  /*.hero-content {
     padding-top: 200px;
     padding-left: 40px;
     padding-bottom: 260px;
-  }
-  h1 {
-    font-size:42px;
-    line-height: 35px;
-  }
-  h2 {
-    font-size: 30px;
-    line-height: 37px;
-  }
+  }*/
 
-  .hero-content > h2 > a {
-    font-size: 34px;
-    line-height: 37px;
-  }
 
   .btn,
   .btn:hover,
@@ -253,51 +197,6 @@ h6 {
     border-top-color: #000;
   }
 
-  h1,h2 {
-    font-size:44px;
-    line-height: 50px;
-  }
-
-  .hero-content > h2 > a {
-    font-size: 46px;
-    line-height: 52px;
-  }
-  .rwd-line {
-    display:block;
-  }
-  h4 {
-    font-size:18px;
-    line-height: 30px;
-  }
-  h5 {
-    font-size: 23px;
-    line-height: 30px;
-  }
-  h6 {
-    font-size:16px;
-    line-height: 2px;
-    padding-bottom: 20px;
-  }
-  .case-studies {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  .MountainRack {
-    padding-top: 20px;
-  }
-  .ExpertMe {
-    padding-top: 20px;
-  }
-  .blocbox {
-    padding-top: 20px;
-  }
-
-  main section {
-    max-width: 1080px;
-    margin: 0 auto !important;
-    float: none !important;
-  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -309,37 +208,7 @@ h6 {
   .navbar-brand{
     padding-left: 20px;
   }
-  h1,h2 {
-    font-size:46px;
-    line-height: 52px;
-  }
-  .hero-content{
-    padding-left:310px;
-  }
-  .hero-content > h2 > a {
-    font-size: 46px;
-    line-height: 52px;
-  }
 
-  h4 {
-    font-size:21px;
-    line-height: 30px;
-  }
-  h5 {
-    font-size: 30px;
-    line-height: 35px;
-    padding-bottom:20px;
-  }
-  h6 {
-    font-size:18px;
-    line-height: 30px;
-  }
-
-  .hero-content{
-    padding-left:110px;
-    padding-right:110px;
-    padding-bottom:400px;
-  }
 
 
   #site-footer .container span {
