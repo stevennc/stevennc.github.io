@@ -220,16 +220,16 @@ h6 {
     padding-bottom: 25px;
     padding-right:40px
   }
-  .navbar-brand {
+  #navbarNavAltMarkup .navbar-brand {
     padding-left: 20px;
   }
-  .navbar-nav > li {
+  #navbarNavAltMarkup .navbar-nav > li {
     display: inline-block;
   }
-  .navbar-nav > li + li {
+  #navbarNavAltMarkup .navbar-nav > li + li {
     margin-left: 20px;
   }
-  .navbar-nav > li > a {
+  #navbarNavAltMarkup .navbar-nav > li > a {
     padding-right: 10px;
     padding-left: 10px;
     font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
@@ -239,16 +239,16 @@ h6 {
     color: rgba(0,0,0,.75);
     border-top: 1px solid black;
   }
-  .navbar-nav > li > a:hover,
-  .navbar-nav > li > a:focus {
+  #navbarNavAltMarkup .navbar-nav > li > a:hover,
+  #navbarNavAltMarkup .navbar-nav > li > a:focus {
     border-top: 4px solid;
     background-color: transparent;
     border-top-color: #000;
     border-top-color: rgba(0,0,0,1);
   }
-  .navbar-nav > .active > a,
-  .navbar-nav > .active > a:hover,
-  .navbar-nav > .active > a:focus {
+  #navbarNavAltMarkup .navbar-nav > .active > a,
+  #navbarNavAltMarkup .navbar-nav > .active > a:hover,
+  #navbarNavAltMarkup .navbar-nav > .active > a:focus {
     color: #000;
     border-top: 4px solid;
     border-top-color: #000;
@@ -283,8 +283,6 @@ h6 {
   .case-studies {
     padding-left: 40px;
     padding-right: 40px;
-    margin: auto;
-    width:1280px;
   }
 
   .MountainRack {
@@ -306,11 +304,11 @@ h6 {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  .navbar{
+  #navbarNavAltMarkup .navbar{
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .navbar-brand{
+  #navbarNavAltMarkup .navbar-brand{
     padding-left: 20px;
   }
   h1,h2 {
@@ -348,8 +346,6 @@ h6 {
   .case-studies {
     padding-left: 40px;
     padding-right: 40px;
-    margin: auto;
-    width:1200px;
   }
 
   #site-footer .container span {
