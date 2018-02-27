@@ -100,8 +100,8 @@ h6 {
 }
 
 .case-studies {
-  margin:auto;
-  width:100%;
+  margin: auto;
+  width:1280px;
 }
 
 .case-studies i {
@@ -283,11 +283,10 @@ h6 {
     line-height: 2px;
     padding-bottom: 20px;
   }
-  
+
   .case-studies {
     padding-left: 40px;
     padding-right: 40px;
-    width: 90%
   }
 
   .MountainRack {
