@@ -357,3 +357,9 @@ h6 {
     margin-top:30px;
   }
 }
+
+@media (min-width: 1300px) {
+  .container {
+    max-width:1080px;
+  }
+}
