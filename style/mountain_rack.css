@@ -19,6 +19,10 @@ body {
   max-width:1000px;
 }
 
+.navbar2 {
+  padding-top:60px;
+}
+
 h1 {
   font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
