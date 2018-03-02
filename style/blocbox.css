@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 .navbar2 {
-  background-color:#273645;
+  background-color:#317381;
 }
 .nav-item{
   margin-left:20px;
@@ -29,7 +29,6 @@ a.anchor{
   top:-180px;
   visibility:hidden;
 }
-
 .link {
   font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
@@ -283,7 +282,7 @@ h6 {
     padding-right:40px
   }
   .navbar2 {
-    background-color:#273645;
+    background-color:#317381;
     padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;

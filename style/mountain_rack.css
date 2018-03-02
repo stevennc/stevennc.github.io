@@ -212,7 +212,7 @@ h6 {
 
 #site-footer .footer i{
   padding-top:30px;
-  padding-left:20px;
+  padding-right:20px;
   padding-bottom:20px;
 }
 
@@ -407,6 +407,8 @@ h6 {
     color: #FFF;
   }
   #site-footer .footer span {
+    float:left;
+    margin-left:60px;
     margin-top:30px;
   }
 }
@@ -455,10 +457,6 @@ h6 {
     line-height: 29px;
     padding-left:50px;
     padding-right:20px;
-  }
-
-  #site-footer .footer i:nth-child(1) {
-    margin-left: 40px;
   }
 
   #site-footer .footer span {
