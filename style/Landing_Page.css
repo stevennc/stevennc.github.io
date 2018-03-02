@@ -17,9 +17,9 @@ body {
 
 
 h1 {
-  font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size:36px;
   line-height: 35px;
 }
@@ -55,8 +55,8 @@ h4 {
 }
 
 h5 {
-  font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+  font-weight: 500;
   font-style: normal;
   font-size: 22px;
   line-height: 30px;
@@ -222,7 +222,7 @@ h6 {
     padding-right:40px
   }
 
-  #navbarNavAltMarkup .navbar-brand {
+  .navbar-brand {
     padding-left: 20px;
   }
   #navbarNavAltMarkup .navbar-nav > li {
@@ -234,9 +234,9 @@ h6 {
   #navbarNavAltMarkup .navbar-nav > li > a {
     padding-right: 10px;
     padding-left: 10px;
-    font-family: 'futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     color: #000; /* IE8 proofing */
     color: rgba(0,0,0,.75);
     border-top: 1px solid black;
@@ -273,8 +273,8 @@ h6 {
     line-height: 30px;
   }
   h5 {
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
   }
   h6 {
     font-size:16px;
