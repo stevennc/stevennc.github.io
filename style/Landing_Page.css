@@ -211,9 +211,6 @@ h6 {
   }
   #site-footer .footer span {
     float:left;
-    margin-left:40px;
-    margin-top:30px;
-  }
 
 }
 
@@ -305,6 +302,11 @@ h6 {
     margin: 0 auto !important;
     float: none !important;
   }
+  #site-footer .footer span {
+    float:left;
+    margin-left:60px;
+    margin-top:30px;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -353,11 +355,6 @@ h6 {
     padding-right: 40px;
   }
 
-  #site-footer .footer span {
-    float:left;
-    margin-left:60px;
-    margin-top:30px;
-  }
 }
 
 @media (min-width: 1300px) {
