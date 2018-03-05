@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="About Me">
+    <meta name="description" content="Contact Page">
     <meta name="author" content="Steven Oey">
     <link rel="icon" href="images/Favicon.png">
 
-    <title>About me</title>
+    <title>Contact me</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
@@ -17,7 +17,7 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600,600i,700|Open+Sans:400,500,600,700" rel="stylesheet">
-    <link href="style/about.css" rel="stylesheet">
+    <link href="style/contact.css" rel="stylesheet">
 </head>
 
 
@@ -48,21 +48,36 @@
 </div>
 
 
-<div class="container">
-<img src="images/About3.jpg" alt="Mountain Rack">
-<main class="main-content container">
-    <h3>Who are you?</h3>
-    <p>I'm a UX designer with a background in chemical and systems engineering. After spending a little over four years in the biotech industry, I feel there’s a huge disconnect between company and customer. I want to try and close that gap by creating products with the user in mind. I gravitated towards a career in design as a way to impact and inspire on an emotional level, not just a physical one – to create experiences based on observations and research from everyday life.</p><br>
-    <h3>What do you do outside of design?</h3>
-    <p>Outside of design, my main hobby is bouldering. You can find me at Vertical Hold or taking weekend trips to Palm Springs Tramway or Bishop, CA for some outdoor action. I try and make use of my U.S. National Parks pass, so impromptu road trips isn't out of the ordinary. Other than that, staying home and watching Netflix is my usual go-to. I also attend seminars and workshops with AIGA, SDXD and UX Speakeasy as well.<br><br>
-    </p>
+<main class="main-content">
+  <div class="container">
+      <div class="title">
+        <h1>Say Hello</h1>
+        <h3>Feel free to reach out if you want to collaborate, connect, or just have a chat.</h3>
+      </div>
+    <form class="container" action="https://formspree.io/hi@stevenoey.com" method="POST">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Full Name</label>
+        <input type="text" name="name"class="form-control input rounded-0" id="name" placeholder="ex: John Doe">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput2">Email address</label>
+        <input type="email" name="_replyto" class="form-control input rounded-0" id="email" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput2">Subject</label>
+        <input type="text" name="_subject" class="form-control input rounded-0" id="email">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea class="form-control input rounded-0" id="message" rows="3"></textarea>
+      </div>
+      <div style="text-align: center;">
+          <button type="submit" class="btn btn-lg btn-info">Submit</button>
+      </div>
+    </form>
+  </div>
 </main>
-<br>
 
-</div>
-<div style="text-align: center;">
-    <a class="btn btn-lg btn-info" href="#" target="_blank">Let's Connect</a>
-</div>
 
 
 

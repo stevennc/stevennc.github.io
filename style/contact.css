@@ -1,33 +1,25 @@
 body {
   color: #000;
+  margin-top: 150px;
 }
 
-.container img {
-  padding-top:120px;
-  display:block;
-  max-width:96%;
-  margin-left: auto;
-  margin-right: auto;
-  height:auto;
-}
-
-h3, p {
+h1, h3 {
+  text-align:center;
   font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-weight: 700i;
-  font-size: 24px;
-  line-height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+h1 {
+  font-weight:700;
+  font-style: normal;
+  font-size:60px;
+  line-height:52px;
 }
 
-p {
-  font-weight:500;
-  font-style: normal;
-  font-size:18px;
-  line-height:26px;
-}
-.container {
-  max-width:1000px;
-  margin-top: 20px;
+.title {
+  padding-bottom:20px;
 }
 
 .btn,
@@ -120,6 +112,13 @@ a:hover {
     max-width:850px;
     margin-top: 20px;
   }
+  .main-content .container {
+    max-width:73%;
+    height:auto;
+  }
+  .title {
+    padding-bottom:3px;
+  }
   #navbarNavAltMarkup .navbar-nav > li {
     display: inline-block;
   }
@@ -169,14 +168,15 @@ a:hover {
   #navbarNavAltMarkup .navbar-brand{
     padding-left: 20px;
   }
-  h3, p {
-    font-size: 24px;
-    line-height: 27px;
+  h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
   }
-
-  p {
-    font-size:18px;
-    line-height:26px;
+  h1 {
+    font-weight:700;
+    font-size:60px;
+    line-height:60px;
   }
 }
 

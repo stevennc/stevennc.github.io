@@ -8,8 +8,8 @@ $(document).ready(function() {
     if ($(window).scrollTop() > 669) {
       $('#nav_bar').addClass('sticky-top');
     }
-    if ($(window).scrollTop() < 670) {
-      $('#nav_bar').removeClass('sticky-top');
-    }
+    // if ($(window).scrollTop() < 670) {
+    //   $('#nav_bar').removeClass('sticky-top');
+    // }
   });
 });
