@@ -25,6 +25,7 @@
 
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class = "container">
     <a class="navbar-brand" href="#"><img src="images/Logo_Black.png" width="75" height="27" class="d-line-block align-top" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item active">
-              <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="https://stevennc.github.io/about.html">About</a>
@@ -41,10 +42,11 @@
               <a class="nav-link" href="#">Resume</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="https://stevennc.github.io/contact.html">Contact</a>
           </li>
         </ul>
     </div>
+  </div>
 </nav>
 
 
@@ -52,7 +54,10 @@
         <h1 class="hero title"> Hello, I'm Steven Oey.</h1>
         <h2 class="hero subtitle"> I am a <a>UX designer</a> based in San Diego interested in interaction design, visual design, and brand identity.</h2>
 </section>
-
+<div class="work-anchor">
+    <a class="anchor" name="work"></a>
+    <h4>Work</h4>
+</div>
 <main class="case-studies container">
     <div class="row case-study justify-content-lg-center">
       <div class= "col-lg-auto">
@@ -185,7 +190,8 @@
     <a class="btn btn-lg btn-info" href="http://stevennc.github.io/contact.html" target="_blank">Let's Connect</a>
 </div>
 
-<footer id="site-footer">
+<footer id="site-footer" class="footer">
+  <div class="container">
     <div class="row">
         <div class="footer col-lg-8">
             <a href="#" target="_blank" title="Website name"><i class="fa fa-envelope-o" style="font-size:23px; color:white;"></i></a>
@@ -198,6 +204,7 @@
             <span class="text-muted">© 2018 Steven Oey. All Rights Reserved. </span>
         </div>
     </div>
+  </div>
 </footer>
 
 
