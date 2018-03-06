@@ -109,8 +109,7 @@ a:hover {
     padding-left: 20px;
   }
   .container {
-    max-width:850px;
-    margin-top: 20px;
+    max-width:1280px;
   }
   .main-content .container {
     max-width:73%;
@@ -152,7 +151,7 @@ a:hover {
 
   #site-footer .footer span {
     float:left;
-    margin-left:60px;
+    margin-left:100px;
     margin-top:30px;
   }
 }
@@ -179,6 +178,9 @@ a:hover {
 }
 
 @media (min-width: 1300px) {
+  .container {
+    max-width:1080px;
+  }
   .main-content .container {
     max-width:60%;
     height:auto;
