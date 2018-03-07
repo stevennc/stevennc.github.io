@@ -33,10 +33,10 @@ a.anchor{
   padding-bottom: 90px;
 }
 .hero-content .container{
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 1.5s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
-  -moz-animation-duration: 2s;
+  -moz-animation-duration: 1.5s;
   -moz-animation-delay: 0s;
   -moz-animation-iteration-count: 1;
 }
@@ -47,11 +47,11 @@ a.anchor{
   font-size:90px;
   color:black;
   padding-top:50px;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-delay: 0.5s;
   -webkit-animation-iteration-count: 1;
-  -moz-animation-duration: 2s;
-  -moz-animation-delay: 1s;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-delay: 0.5s;
   -moz-animation-iteration-count: 1;
 }
 
