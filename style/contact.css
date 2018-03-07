@@ -1,6 +1,7 @@
 body {
   color: #000;
   margin-top: 150px;
+  height:100%;
 }
 
 h1, h3 {
@@ -46,6 +47,9 @@ a:hover {
 }
 #site-footer {
   background-color: #000000;
+  position:fixed;
+  bottom:0;
+  width:100%;
 }
 
 #site-footer .footer i{
