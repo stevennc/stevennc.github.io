@@ -47,7 +47,7 @@ a.anchor{
 }
 
 .hero-content img {
-  padding-top:50px;
+  padding-top:120px;
   width:100%;
 }
 .overview .subtitle {
@@ -238,7 +238,9 @@ h6 {
   .main-content .bar {
     border-top: 3px solid black;
   }
-
+  .hero-content img {
+    padding-top:50px;
+  }
   .btn,
   .btn:hover,
   .btn:focus {

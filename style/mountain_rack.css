@@ -20,7 +20,7 @@ body {
   padding-top: 20px;
 }
 .main-content img {
-  width:100%
+  width:100%;
 }
 .main-content h3 {
   padding-top: 10px;
@@ -46,7 +46,7 @@ a.anchor{
 }
 
 .hero-content img {
-  padding-top:50px;
+  padding-top:120px;
   width:100%;
 }
 .overview .subtitle {
@@ -237,6 +237,9 @@ h6 {
   .main-content .bar {
     border-top: 3px solid black;
   }
+  .hero-content img {
+    padding-top:80px;
+  }
 
   .btn,
   .btn:hover,
@@ -258,7 +261,9 @@ h6 {
     padding-top:5px;
     padding-bottom:5px;
   }
-
+  .hero-content img {
+    padding-top:70px;
+  }
   #site-footer .footer a:nth-child(1) {
     padding-bottom: 20px;
     float: left;
