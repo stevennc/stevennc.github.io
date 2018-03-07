@@ -1,9 +1,6 @@
 body {
   color: #000;
 }
-.navbar-brand{
-  padding-left:8px;
-}
 .container {
   max-width:1000px;
 }
@@ -265,9 +262,6 @@ a:hover {
     font-size:90px;
     padding-top:250px;
   }
-  .navbar-brand {
-    padding-left: 20px;
-  }
   .container {
     max-width:1180px;
   }
@@ -398,6 +392,12 @@ a:hover {
   .case-studies .container {
     max-width:1300px;
   }
+  #site-footer .footer span {
+    float:left;
+    margin-left:50px;
+    margin-top:30px;
+    color:white
+  }
 }
 
 @media (min-width: 1300px) {
@@ -413,5 +413,9 @@ a:hover {
   }
   .case-studies .container {
     max-width:1300px;
+  }
+  #site-footer .footer span {
+    float:left;
+    margin-left:27px;
   }
 }

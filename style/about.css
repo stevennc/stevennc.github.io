@@ -1,9 +1,6 @@
 body {
   color: #000;
 }
-.navbar-brand{
-  padding-left:8px;
-}
 .container {
   max-width:1000px;
 }
@@ -252,6 +249,12 @@ main {
     left:30%;
     top:20%
   }
+  #site-footer .footer span {
+    float:left;
+    margin-left:50px;
+    margin-top:30px;
+    color:white
+  }
 }
 
 @media (min-width: 1300px) {
@@ -280,5 +283,9 @@ main {
     height:auto;
     left:38%;
     top:16%
+  }
+  #site-footer .footer span {
+    float:left;
+    margin-left:27px;
   }
 }

@@ -312,8 +312,8 @@ h6 {
     border-top: 1px solid;
   }
   .connect .row {
-    padding-left:38px;
-    padding-right:76px;
+    padding-left:140px;
+    padding-right:170px;
   }
   h1 {
     font-size:32px;
@@ -471,7 +471,7 @@ h6 {
 
   #site-footer .footer span {
     float:left;
-    margin-left:27px;
+    margin-left:50px;
     margin-top:30px;
     color:white
   }
@@ -480,5 +480,9 @@ h6 {
 @media (min-width: 1300px) {
   .container {
     max-width:1060px;
+  }
+  #site-footer .footer span {
+    float:left;
+    margin-left:27px;
   }
 }

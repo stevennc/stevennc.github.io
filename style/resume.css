@@ -41,6 +41,9 @@ p {
 .row {
   padding-top:20px;
 }
+#site-footer .row {
+  padding-top:0px;
+}
 .connect{
   padding-top:60px;
 }
@@ -182,6 +185,12 @@ a:hover {
     font-size:60px;
     line-height:60px;
   }
+  #site-footer .footer span {
+    float:left;
+    margin-left:50px;
+    margin-top:30px;
+    color:white
+  }
 }
 
 @media (min-width: 1300px) {
@@ -194,5 +203,8 @@ a:hover {
   #site-footer .footer a:nth-child(1) {
     padding-left: 0px;
   }
-
+  #site-footer .footer span {
+    float:left;
+    margin-left:27px;
+  }
 }
