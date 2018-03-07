@@ -36,6 +36,9 @@ a.anchor{
   -webkit-animation-duration: 1.5s;
   -webkit-animation-delay: 0s;
   -webkit-animation-iteration-count: 1;
+  -ms-animation-duration: 1.5s;
+  -ms-animation-delay: 0s;
+  -ms-animation-iteration-count: 1;
   -moz-animation-duration: 1.5s;
   -moz-animation-delay: 0s;
   -moz-animation-iteration-count: 1;
@@ -50,6 +53,9 @@ a.anchor{
   -webkit-animation-duration: 1.5s;
   -webkit-animation-delay: 0.5s;
   -webkit-animation-iteration-count: 1;
+  -ms-animation-duration: 1.5s;
+  -ms-animation-delay: 0.5s;
+  -ms-animation-iteration-count: 1;
   -moz-animation-duration: 1.5s;
   -moz-animation-delay: 0.5s;
   -moz-animation-iteration-count: 1;
