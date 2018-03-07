@@ -10,7 +10,9 @@ a.anchor{
   top:-120px;
   visibility:hidden;
 }
-
+.navbar-brand{
+  padding-left:8px;
+}
 .work-anchor h4 {
     font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
     color: #8B8B8B;
@@ -258,6 +260,9 @@ a:hover {
     padding-bottom: 25px;
     padding-right:40px
   }
+  .navbar-brand{
+    margin-left:-20px;
+  }
   .hero-content i{
     font-size:90px;
     padding-top:250px;
@@ -374,7 +379,7 @@ a:hover {
   }
 
   .hero-content{
-    padding-top:140px;
+    padding-top:160px;
     padding-left:110px;
     padding-right:110px;
     padding-bottom:100px;

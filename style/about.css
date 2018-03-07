@@ -19,13 +19,9 @@ body {
   display:inline-block;
   position: absolute;
   max-width:500px;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-duration: 2s;
-  -moz-animation-delay: 0s;
-  -moz-animation-iteration-count: 1;
-
+}
+.navbar-brand{
+  padding-left:8px;
 }
 
 h3, p {
@@ -69,6 +65,15 @@ a:hover {
   left:11%;
   top:26%;
   box-shadow:0px 5px 15px rgba(75,75,75,0.3);
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0.1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 0.1s;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-duration: 2s;
+  -ms-animation-delay: 0.1s;
+  -ms-animation-iteration-count: 1;
 }
 
 #about .Palms {
@@ -77,6 +82,15 @@ a:hover {
   left:60%;
   top:40%;
   box-shadow:0px 5px 15px rgba(75,75,75,0.3);
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0.2s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 0.2s;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-duration: 2s;
+  -ms-animation-delay: 0.2s;
+  -ms-animation-iteration-count: 1;
 }
 
 #about .JT {
@@ -85,6 +99,15 @@ a:hover {
   left:28%;
   top:16%;
   box-shadow:0px 5px 15px rgba(75,75,75,0.3);
+  -webkit-animation-duration: 2.3s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 2.3s;
+  -moz-animation-delay: 0s;
+  -moz-animation-iteration-count: 1;
+  -ms-animation-duration: 2.3s;
+  -ms-animation-delay: 0s;
+  -ms-animation-iteration-count: 1;
 }
 
 main {
@@ -145,6 +168,9 @@ main {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right:40px
+  }
+  .navbar-brand{
+    margin-left:-20px;
   }
   p {
     line-height:27px;
@@ -217,6 +243,9 @@ main {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .navbar-brand{
+    margin-left:0px;
+  }
   h3, p {
     font-size: 24px;
     line-height: 27px;
