@@ -13,7 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="jquery-3.3.1.min.js"></script>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,16 +33,16 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item active">
-                  <a class="nav-link" href="https://stevennc.github.io/index.html#work">Work <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html#work">Work <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="https://stevennc.github.io/about.html">About</a>
+                  <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="https://stevennc.github.io/resume.html">Resume</a>
+                  <a class="nav-link" href="resume.html">Resume</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="https://stevennc.github.io/contact.html" target="_blank">Contact</a>
+                  <a class="nav-link" href="contact.html" target="_blank">Contact</a>
               </li>
             </ul>
         </div>
@@ -127,7 +127,7 @@
         </div>
 
         <div class="section-title">
-          <div id="research" class="anchor" name="research"></div>
+          <a id="research" class="anchor" name="research"></a>
           <h4>Research</h4>
             <div class = "understand">
                 <h3><span class="bar">Und</span>erstanding the User</h3>
@@ -262,7 +262,6 @@
 
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="scripts/scrollTop.js"></script>
     <script type="text/javascript">
           $(document).ready(function(){
@@ -281,7 +280,7 @@
               // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
               $('html, body').animate({
                 scrollTop: $(hash).offset().top
-              }, 800, function(){
+              }, 1300, function(){
 
                 // Add hash (#) to URL when done scrolling (default click behavior)
                 window.location.hash = hash;
