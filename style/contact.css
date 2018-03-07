@@ -185,6 +185,10 @@ a:hover {
     max-width:60%;
     height:auto;
   }
+  #site-footer {
+    background-color: #000000;
+    position:fixed;
+  }
   #site-footer .footer a:nth-child(1) {
     padding-left: 0px;
   }
@@ -192,5 +196,4 @@ a:hover {
     float:left;
     margin-left:27px;
   }
-
 }
