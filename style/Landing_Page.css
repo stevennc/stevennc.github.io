@@ -1,9 +1,11 @@
 body {
   color: #000;
 }
-
+.navbar-brand{
+  padding-left:8px;
+}
 .container {
-  max-width:1280px;
+  max-width:1000px;
 }
 a.anchor{
   display: block;
@@ -30,13 +32,34 @@ a.anchor{
   padding-right: 10px;
   padding-bottom: 90px;
 }
-
+.hero-content .container{
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 0s;
+  -moz-animation-iteration-count: 1;
+}
+.hero-content i{
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  font-size:90px;
+  color:black;
+  padding-top:50px;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-duration: 2s;
+  -moz-animation-delay: 1s;
+  -moz-animation-iteration-count: 1;
+}
 
 h1 {
   font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
   font-weight: 600;
-  font-size:36px;
+  font-size:29px;
   line-height: 35px;
 }
 h2 {
@@ -87,8 +110,6 @@ h6 {
   text-align: left;
   padding-top: 20px;
 }
-
-
 
 /* Case Study Background colors */
 .MountainRack {
@@ -160,11 +181,6 @@ a:hover {
   background-color: #000000;
 }
 
-
-#site-footer .footer a:nth-child(1){
-  padding-left:20px;
-}
-
 #site-footer .footer i{
   padding-top:30px;
   padding-right:20px;
@@ -172,11 +188,8 @@ a:hover {
 }
 
 #site-footer .footer span {
-  padding-left:20px;
   font-size:14px;
 }
-
-
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -184,9 +197,16 @@ a:hover {
     padding-top: 200px;
     padding-left: 30px;
     padding-right: 10px;
-    padding-bottom: 260px;
+    padding-bottom: 160px;
   }
-
+  h1 {
+    font-size:36px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 37px;
+  }
   .btn,
   .btn:hover,
   .btn:focus {
@@ -202,18 +222,13 @@ a:hover {
     padding-left: 40px;
     padding-bottom: 260px;
   }
-  h1 {
-    font-size:42px;
-    line-height: 35px;
-  }
-  h2 {
-    font-size: 30px;
-    line-height: 37px;
-  }
 
   .hero-content > h2 > a {
     font-size: 34px;
     line-height: 37px;
+  }
+  .hero-content i{
+    padding-top:100px;
   }
 
   .btn,
@@ -225,7 +240,6 @@ a:hover {
 
 
   #site-footer .footer a:nth-child(1) {
-    padding-left: 40px;
     padding-bottom: 20px;
     float: left;
   }
@@ -241,9 +255,18 @@ a:hover {
     padding-bottom: 25px;
     padding-right:40px
   }
-
+  .hero-content i{
+    font-size:90px;
+    padding-top:250px;
+  }
   .navbar-brand {
     padding-left: 20px;
+  }
+  .container {
+    max-width:1180px;
+  }
+  .body_copy .container{
+    max-width:840px;
   }
   #navbarNavAltMarkup .navbar-nav > li {
     display: inline-block;
@@ -317,26 +340,15 @@ a:hover {
     padding-top: 20px;
   }
 
-  main section {
-    max-width: 1080px;
-    margin: 0 auto !important;
-    float: none !important;
-  }
   #site-footer .footer span {
-    float:left;
-    margin-left:60px;
     margin-top:30px;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-  #navbarNavAltMarkup .navbar{
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  #navbarNavAltMarkup .navbar-brand{
-    padding-left: 20px;
+  .navbar-brand{
+    margin-left: 0px;
   }
   h1,h2 {
     font-size:46px;
@@ -367,18 +379,33 @@ a:hover {
   .hero-content{
     padding-left:110px;
     padding-right:110px;
-    padding-bottom:400px;
+    padding-bottom:100px;
+  }
+  .hero-content i{
+    padding-top:125px;
   }
 
   .case-studies {
     padding-left: 40px;
     padding-right: 40px;
   }
-
+  .case-studies .container {
+    max-width:1300px;
+  }
 }
 
 @media (min-width: 1300px) {
+  .hero-content{
+    padding-top:300px;
+  }
+  .hero-content i{
+    padding-top:250px;
+    padding-bottom:100px;
+  }
   .container {
+    max-width:1060px;
+  }
+  .case-studies .container {
     max-width:1300px;
   }
 }

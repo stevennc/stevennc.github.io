@@ -10,6 +10,9 @@ body {
 .navbar2 {
   background-color:#E58F0D;
 }
+.navbar-brand{
+  padding-left:8px;
+}
 .nav-item{
   margin-left:20px;
 }
@@ -52,7 +55,6 @@ a.anchor{
 }
 .container {
   max-width:1000px;
-  margin-top: 20px;
 }
 .header .title {
   padding-top: 20px;
@@ -205,11 +207,6 @@ h6 {
   background-color: #000000;
 }
 
-
-#site-footer .footer a:nth-child(1){
-  padding-left:20px;
-}
-
 #site-footer .footer i{
   padding-top:30px;
   padding-right:20px;
@@ -217,7 +214,6 @@ h6 {
 }
 
 #site-footer .footer span {
-  padding-left:20px;
   font-size:14px;
 }
 
@@ -264,7 +260,6 @@ h6 {
   }
 
   #site-footer .footer a:nth-child(1) {
-    padding-left: 40px;
     padding-bottom: 20px;
     float: left;
   }
@@ -287,6 +282,9 @@ h6 {
     padding-top: 5px;
     padding-bottom: 5px;
   }
+  .navbar-brand{
+    margin-left:-20px;
+  }
   .sticky-top {
       top: 94px;
       z-index: 100;
@@ -294,8 +292,10 @@ h6 {
       width: 100%;
   }
   .container {
-    max-width:850px;
-    margin-top: 20px;
+    max-width:1180px;
+  }
+  .body_copy .container{
+    max-width:840px;
   }
   a.anchor{
     top:-140px;
@@ -305,6 +305,10 @@ h6 {
     line-height: 28px;
     margin-top:10px;
     border-top: 1px solid;
+  }
+  .connect .row {
+    padding-left:38px;
+    padding-right:76px;
   }
   h1 {
     font-size:32px;
@@ -351,9 +355,6 @@ h6 {
     padding-right:20px;
   }
 
-  .navbar-brand {
-    padding-left: 20px;
-  }
   #navbarNavAltMarkup .navbar-nav > li {
     display: inline-block;
   }
@@ -391,6 +392,9 @@ h6 {
   #navbarNavDropdown .navbar-nav > li + li {
     margin-left: 20px;
   }
+  #navbarNavDropdown .navbar-nav > li:nth-child(1){
+   margin-left:-5px;
+  }
   #navbarNavDropdown .navbar-nav > li > a {
     font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
     font-size: 16px;
@@ -407,8 +411,6 @@ h6 {
     color: #FFF;
   }
   #site-footer .footer span {
-    float:left;
-    margin-left:60px;
     margin-top:30px;
   }
 }
@@ -417,6 +419,9 @@ h6 {
 @media (min-width: 1200px) {
   .main-content {
     padding-top:40px;
+  }
+  .navbar-brand{
+    margin-left:0px;
   }
   h1 {
     font-size:34px;
@@ -461,7 +466,7 @@ h6 {
 
   #site-footer .footer span {
     float:left;
-    margin-left:60px;
+    margin-left:27px;
     margin-top:30px;
     color:white
   }
@@ -469,6 +474,6 @@ h6 {
 
 @media (min-width: 1300px) {
   .container {
-    max-width:995px;
+    max-width:1060px;
   }
 }

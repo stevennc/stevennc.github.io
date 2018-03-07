@@ -16,7 +16,6 @@ body {
 .nav-item{
   margin-left:20px;
 }
-
 .main-content {
   padding-top: 20px;
 }
@@ -179,8 +178,6 @@ h6 {
   padding-bottom: 10px;
 }
 
-
-
 #nav_bar ul {
   flex-wrap: wrap;
 }
@@ -212,15 +209,11 @@ h6 {
   background-color: #000000;
 }
 
-
-
-
 #site-footer .footer i{
   padding-top:30px;
   padding-right:20px;
   padding-bottom:20px;
 }
-
 
 #site-footer .footer span {
   font-size:14px;
@@ -306,7 +299,6 @@ h6 {
   .body_copy .container{
     max-width:840px;
   }
-
   a.anchor{
     top:-140px;
   }
@@ -476,9 +468,8 @@ h6 {
 
   #site-footer .footer span {
     float:left;
-    margin-left:60px;
+    margin-left:27px;
     margin-top:30px;
-    color:white
   }
 }
 

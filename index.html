@@ -17,11 +17,11 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600,600i,700|Open+Sans:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="style/Landing_Page.css" rel="stylesheet">
+
 </head>
-
-
-
 
 <body>
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -33,7 +33,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item active">
-              <a class="nav-link" href="#work">Work <span class="sr-only">(current)</span></a>
+              <a class="nav-link smoothScroll" href="#work">Work <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="https://stevennc.github.io/about.html">About</a>
@@ -50,15 +50,19 @@
 </nav>
 
 
-<section class="hero-content container">
+<section id=#section01 class="hero-content">
+    <div class="animated fadeInDown container">
         <h1 class="hero title"> Hello, I'm Steven Oey.</h1>
         <h2 class="hero subtitle"> I am a <a>UX designer</a> based in San Diego interested in interaction design, visual design, and brand identity.</h2>
+    </div>
+      <a href="#work" title="Scroll"><i class="animated fadeInDown material-icons">keyboard_arrow_down</i></a>
 </section>
 <div class="work-anchor">
-    <a class="anchor" name="work"></a>
+    <a id="work" class="smooth-scroll anchor" name="work"></a>
     <h4>Work</h4>
 </div>
-<main class="case-studies container">
+<main class="case-studies">
+  <div class="container">
     <div class="row case-study justify-content-lg-center">
       <div class= "col-lg-auto">
       </div>
@@ -184,6 +188,7 @@
         <div class= "col-lg-auto">
         </div>
     </div>
+  </div>
 </main>
 
 <div style="text-align: center;">
@@ -197,11 +202,11 @@
             <a href="#" target="_blank" title="Website name"><i class="fa fa-envelope-o" style="font-size:23px; color:white;"></i></a>
             <a href="https://www.linkedin.com/in/stevenoey" target="_blank" title="Website name"><i class="fa fa-linkedin-in" style="font-size:24px; color:white;"></i></a>
             <a href="https://www.instagram.com/stevenoey/" target="_blank" title="LinkedIn"><i class="fa fa-instagram" style="font-size:24px; color:white;"></i></a>
-            <a href="https://soundcloud.com/naptimezz/sets" target="_blank" title="Website name"><i class="fa fa-soundcloud" style="font-size:24px; color:white;"></i></a>
+            <a href="https://soundcloud.com/naptimezz/" target="_blank" title="Website name"><i class="fa fa-soundcloud" style="font-size:24px; color:white;"></i></a>
             <a href="https://github.com/stevennc" target="_blank" title="Website name"><i class="fa fa-github" style="font-size:24px; color:white;"></i></a>
         </div>
         <div class="footer col-lg-4">
-            <span class="text-muted">© 2018 Steven Oey. All Rights Reserved. </span>
+            <span class="text-muted">©2018. Designed & Developed by Steven Oey</span>
         </div>
     </div>
   </div>
@@ -211,6 +216,7 @@
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="scripts/smoothScroll.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
