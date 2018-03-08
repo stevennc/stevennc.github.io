@@ -81,7 +81,18 @@ a:hover {
 #site-footer .footer span {
   font-size:14px;
 }
+.link {
+  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size:18px;
+  color:#000;
+  text-decoration: underline;
+}
 
+.link:hover {
+  color:#737373;
+}
 
 
 /* Small devices (landscape phones, 576px and up)*/
