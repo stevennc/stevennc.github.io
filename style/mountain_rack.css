@@ -9,6 +9,7 @@ body {
 }
 .navbar2 {
   background-color:#E58F0D;
+  box-shadow:0px 3px 7px rgba(75,75,75,0.3);
 }
 .navbar-brand{
   padding-left:8px;
@@ -19,12 +20,21 @@ body {
 .main-content {
   padding-top: 20px;
 }
+.main-content .bar {
+  border-top: 4px solid black;
+  height:20px;
+}
 .main-content img {
   width:100%;
 }
 .main-content h3 {
+  font-size:20px;
   padding-top: 10px;
-  padding-bottom:5px;
+  padding-bottom:0px;
+}
+.highlight {
+  border-left: 2px dotted black;
+  margin-left:10px;
 }
 a.anchor{
   display: block;
@@ -46,24 +56,39 @@ a.anchor{
 }
 
 .hero-content img {
-  padding-top:120px;
-  width:100%;
+  padding-top:30px;
+  width:150%;
 }
 .overview .subtitle {
   padding-left:0;
   padding-right:25px;
 }
+.persona_text {
+  padding-left:10px;
+  padding-right:10px;
+}
+.persona h3 {
+  color: #E58F0D;
+  background-color: #F4F4F4;
+}
+.persona h4 {
+  text-align: left !important;
+  padding-top: 0px !important;
+}
+
 .container {
   max-width:1000px;
 }
 .header .title {
   padding-top: 20px;
   text-align: center;
+  padding-bottom:10px;
 }
 .subhead {
   text-align:center;
 }
-.subheader h3 {
+.subheader h3,
+.persona h5 {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
   font-weight: 600i;
@@ -72,17 +97,66 @@ a.anchor{
   margin-top:10px;
   border-top: 1px solid;
 }
+.persona h5 {
+  border-top:none;
+  padding-left: 10px;
+}
+.user-flow img {
+  display: none;
+}
+.colored {
+  background-color: #F4F4F4;
+}
+.data h1 {
+  font-size:26px;
+  line-height: 33px;
+}
+.data-head {
+  padding-bottom:20px;
+}
+.data {
+  padding-top:30px;
+}
+.data h2 {
+  color: #E58F0D;
+  font-size: 38px;
+}
+.fact {
+  padding-bottom:20px;
+}
+.desktop_only {
+  display: none;
+}
+.desktop_only .btn,
+.desktop_only .btn:hover,
+.desktop_only .btn:focus {
+  font-family: 'Cormorant Garamond', serif;
+  font-style:italic;
+  font-weight: 600i;
+  font-size:19px;
+  color: #000;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #E2E2E2;
+  border-color: #E2E2E2;
+  border-radius: 0px 0px;
+  box-shadow:0px 2px 2px rgba(75,75,75,0.5);
+  width: 240px;
+  margin-bottom: 40px;
+}
+
+
 h1 {
   font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
   font-weight: 500;
-  font-size:24px;
+  font-size:30px;
+  line-height:20px;
 }
 h2{
   font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
   font-weight: 500;
-  font-size:24px;
+  font-size:26px;
   line-height: 30px;
 }
 
@@ -121,7 +195,7 @@ h5 {
   font-family: 'Cormorant Garamond', serif;
   font-style:normal;
   font-weight: 500;
-  font-size:16px;
+  font-size:18px;
   line-height: 27px;
 }
 
@@ -176,7 +250,9 @@ h6 {
   left: 3px;
   padding-bottom: 10px;
 }
-
+#nav_bar {
+    visibility: hidden;
+}
 #nav_bar ul {
   flex-wrap: wrap;
 }
@@ -224,6 +300,13 @@ h6 {
   h1, h3 {
     margin-bottom:0px;
   }
+  h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  h1 {
+    padding-top:10px;
+  }
   .overview h2 {
     padding-top: 20px;
   }
@@ -234,11 +317,8 @@ h6 {
   a.anchor{
     top:-135px;
   }
-  .main-content .bar {
-    border-top: 3px solid black;
-  }
   .hero-content img {
-    padding-top:80px;
+    padding-top:20px;
   }
 
   .btn,
@@ -263,6 +343,22 @@ h6 {
   }
   .hero-content img {
     padding-top:70px;
+    width:100%;
+  }
+  .header .title {
+    padding-bottom:0px;
+  }
+  .highlight {
+    margin-left:30px;
+  }
+  .data-head {
+    padding-bottom:30px;
+  }
+  .desktop_only {
+    display: block;
+  }
+  #nav_bar {
+      visibility:visible;
   }
   #site-footer .footer a:nth-child(1) {
     padding-bottom: 20px;
@@ -317,6 +413,7 @@ h6 {
   }
   h1 {
     font-size:32px;
+    line-height:36px;
   }
   h2{
     font-size:32px;
@@ -329,6 +426,7 @@ h6 {
   }
   .main-content h3 {
     padding-top: 15px;
+    padding-bottom:5px;
   }
   p {
     padding-bottom:2px;
@@ -342,7 +440,9 @@ h6 {
   h4 {
     line-height: 21px;
   }
-
+  .user-flow img {
+    display: block;
+  }
   .section-title h4 {
     font-size:22px;
     line-height:29px;
@@ -356,7 +456,7 @@ h6 {
   h6 {
     font-size:18px;
     line-height: 29px;
-    padding-left:50px;
+    padding-left:20px;
     padding-right:20px;
   }
 
@@ -423,7 +523,7 @@ h6 {
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
   .main-content {
-    padding-top:40px;
+    padding-top:0px;
   }
   .navbar-brand{
     margin-left:0px;
@@ -435,8 +535,8 @@ h6 {
     font-size:34px;
     line-height: 40px;
   }
-  h3 {
-    font-size: 22px;
+  .main-content h3 {
+    font-size: 24px;
     line-height: 28px;
   }
   p {
@@ -465,7 +565,7 @@ h6 {
   h6 {
     font-size:20px;
     line-height: 29px;
-    padding-left:50px;
+    padding-left:20px;
     padding-right:20px;
   }
 

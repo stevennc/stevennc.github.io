@@ -85,9 +85,15 @@ a:hover {
   font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
   font-style:normal;
   font-weight: 500;
-  font-size:18px;
+  font-size:16px;
   color:#000;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.link i {
+  position: relative;
+  top: 7px;
+  left: 2px;
 }
 
 .link:hover {
