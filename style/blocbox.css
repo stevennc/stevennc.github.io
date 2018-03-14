@@ -136,12 +136,18 @@ a.anchor{
   font-size:18px;
   color: #000;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #DCDCDC;
-  border-color: #DCDCDC;
+  background-color: transparent;
+  border-color: #D3D3D3;
   border-radius: 0px 0px;
-  box-shadow:0px 1px 1px rgba(75,75,75,0.5);
+  box-shadow:0px 0px 0px rgba(75,75,75,0.5);
   width: 160px;
+  margin-top:-10px;
   margin-bottom: 35px;
+}
+.desktop_only .btn:hover{
+  background-color: #000;
+  border-color:#000;
+  color:white;
 }
 
 h1 {
