@@ -388,7 +388,7 @@ a:hover {
     padding-bottom:100px;
   }
   .hero-content i{
-    padding-top:125px;
+    padding-top:110px;
   }
 
   .case-studies {
@@ -409,10 +409,11 @@ a:hover {
 @media (min-width: 1300px) {
   .hero-content{
     padding-top:300px;
+    margin-left:100px;
   }
   .hero-content i{
-    padding-top:250px;
-    padding-bottom:100px;
+    padding-top:200px;
+    padding-bottom:150px;
   }
   .container {
     max-width:1060px;
