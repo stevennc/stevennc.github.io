@@ -37,9 +37,11 @@ p {
 .title {
   padding-bottom:20px;
 }
-
 .row {
   padding-top:20px;
+}
+.header {
+  margin-top:-50px;
 }
 #site-footer .row {
   padding-top:0px;
@@ -70,8 +72,6 @@ a:hover {
 #site-footer {
   background-color: #000000;
 }
-
-
 #site-footer .footer i{
   padding-top:30px;
   padding-right:20px;
@@ -109,6 +109,9 @@ a:hover {
   .btn:focus {
     width: 350px;
     margin-bottom: 40px;
+  }
+  .header {
+    margin-top:0px;
   }
   #site-footer .footer a:nth-child(1) {
     padding-bottom: 20px;
