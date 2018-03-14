@@ -21,7 +21,6 @@
     <link href="style/blocbox.css" rel="stylesheet">
 </head>
 
-
 <body>
 <div id="banner">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -85,6 +84,7 @@
 <div class="body_copy">
 <div class="container">
     <section class="header">
+        <a id="overview" class="anchor" name="overview"></a>
         <div class="title">
             <h1>blocbox</h1>
             <h5>Case Study</h5>
@@ -106,9 +106,10 @@
             </div>
         </div>
     </section>
-
+    <div class="desktop_only" style="text-align: center;">
+        <a class="btn btn-lg btn-info" href="https://invis.io/JRFE2TWDYQT" target="_blank">View Prototype</a>
+    </div>
     <main class="main-content">
-      <a id="overview" class="anchor" name="overview"></a>
         <div class="overview">
             <h2>Save, Share and Collaborate with <span class="rwd-line"> Friends and Family.</span></h2>
             <p> The “Personal Computer” has been redefined. No longer is it a heavyweight piece of electronics tethered to your living room floor. It’s now a pocket sized, handheld device that roughly three-fourths of Americans own, according to pewresearch.org. With the access to information becoming easier, the need for alternative data storage has never been more relevant. blocbox offers a cloud based service that allows users to access their files from any device – providing a safe way to save, share, and collaborate.</p>
@@ -132,11 +133,13 @@
             <div class = "understand">
                 <h3><span class="bar">Und</span>erstanding the User</h3>
                 <p> With research data sourced using <a class="link" href="https://drive.google.com/open?id=1JTMS_1lEMJoNBEH4UY6hCTy4eBU6zj2WFL2voAyH9SI" target="_blank">Google Surveys</a> from different areas throughout California, I gained valuable insights from a variety of young students and professionals. Early testing helped me position blocbox to directly resolve any user pain-points or concerns before wasting time and resources in development. I wanted to understand the existing <i>Mental Model</i> for cloud services in today’s market, so my questions pertained to: </p>
-                <h6> 1.	Devices used for browsing the internet<br>
-        	           2.	User’s internet interactions<br>
-                     3.	Social network presence<br>
-    	               4.	Work environment.<br>
-                </h6>
+                <div class="highlight">
+                  <h6> <strong>1.</strong>	Devices used for browsing the internet<br>
+          	           <strong>2.</strong>	User’s internet interactions<br>
+                       <strong>3.</strong>	Social network presence<br>
+      	               <strong>4.</strong>	Work environment.<br>
+                  </h6>
+                </div>
                 <p>These four questions helped narrow blocbox’s scope and frame what services we should provide for the minimal viable product (MVP).
                 <img src="images/Blocbox_Graph1.png" alt="blocbox_Graph1">
                 <img src="images/Blocbox_Graph2.png" alt="blocbox_Graph1">
@@ -153,19 +156,65 @@
             </div>
             <div class="the-user">
                 <h3><span class="bar">Ide</span>ntifying the User</h3>
-                <img src="images/Blocbox_User Personas.png" alt="blocbox_User Personas"><br><br>
+                <div class="desktop_only">
+                  <img src="images/Blocbox_User Personas.png" alt="blocbox_User Personas">
+                </div>
                 <p>From the user-survey participants, I reached out to four individuals to interview. These individuals ranged from casual to professional internet use, and provided career diversity to better understand all possible users. Interviewing provided me with some background and insights to <i>why</i> people answered the way they did to the survey. <br><br>
-                The common goals were time and efficiency. Users wanted a way to streamline the process of organizing and maintaining their personal files. Therefore, I needed to keep those two goals in mind when designing and developing. <a class="link" href="https://drive.google.com/open?id=0B2yKoqotFsW0VDgyMkVtQXNFdVk" target="_blank">View User Personas</a></p>
+                The common goals were time and efficiency. Users wanted a way to streamline the process of organizing and maintaining their personal files. Therefore, I needed to keep those two goals in mind when designing and developing. <a class="link" href="https://drive.google.com/open?id=0B2yKoqotFsW0VDgyMkVtQXNFdVk" target="_blank">View User Personas</a></p><br>
+                <div class="container-flex align-top">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="persona">
+                        <img src="images/Blocbox_Mariko.png" alt=Persona2>
+                        <h2 class="persona_text">Mariko, 28</h2>
+                      <h4 class="persona_text">Research Associate from San Diego, CA</h4>
+                      <div class="highlight">
+                          <h5 class="persona_text">“I would love to have some way to save all of my trip plans, activities, and memories in one location [...]”</h5>
+                      </div>
+                      <h3 class="persona_text">Goals</h3>
+                      <p class="persona_text">• Consolidate for planning trips<br>
+                          • Simple interface<br>
+                          • Easy Navigation<br> </p>
+                      <h3 class="persona_text">Frustrations</h3>
+                      <p class="persona_text">• Too many categories<br>
+                        • Hard to scan a lot of information quickly<br>
+                        • Inability to localize files and work offline<br></p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="persona">
+                      <img src="images/Blocbox_Ryan.png" alt=Persona1>
+                      <h2 class="persona_text">Ryan, 29</h2>
+                      <h4 class="persona_text">Camera Operator from Oakland, CA</h4>
+                      <div class="highlight">
+                          <h5 class="persona_text">"I would love to have instant messaging [...] would make it easier to collaborate and work with others from a distance”</h5>
+                      </div>
+                      <h3 class="persona_text">Goals</h3>
+                      <p class="persona_text">
+                          • Collaborate on media projects from a far<br>
+                          • Easily manage incoming content<br>
+                          • Quick access to saved media<br> </p>
+                      <h3 class="persona_text">Frustrations</h3>
+                      <p class="persona_text">
+                        • Desktop bookmarks don't save on mobile<br>
+                        • UI is not orgnized; request simpler design<br>
+                        • Organizing bookmarked content<br></p>
+                      </div>
+                    </div>
+                  </div>
+                </div><br>
             </div>
             <div class="user-flow">
                 <h3><span class="bar">Dev</span>eloping User Flows</h3>
                 <img src="images/Blockbox_User flows.jpg" alt="Blocbox_User Flow">
                 <p>For the MVP, I developed <a class="link" href="https://docs.google.com/spreadsheets/d/1ZZfjENFPCxiFKzo2Ej3hQzbsPS6DfnRCgRxh0mOcflI/edit?usp=sharing" target="_blank">User Stories</a> to help prioritize the needs of  new users and returning users. Additionally, I focused on three main screen interactions:</p>
+                <div class="highlight">
                       <h6>
                         <strong>1. Landing Page -</strong> provide product information, pricing, and ability to sign up<br>
                       	<strong>2. Signing Up -</strong> gathering enough information from the user to start using the product as quickly as possible<br>
                       	<strong>3. Dashboard -</strong> to assist new users to start using the product, and to organize and layout existing content for returning users<br>
                       </h6>
+                </div>
                 <p>From user interviews, time and efficiency was a main concern, so streamlining the signing up process was a high priority. Due to the large percentage of users using social accounts to sign up, allowing blocbox to accommodate Facebook and Twitter users was also a necessity. Organization was another focal point, since it was a major pain-point for users and a way for blocbox to be competitive. Therefore, the Dashboard’s layout and functionality needed to be intuitive and easy-to-use.</p>
             </div>
         </div>
@@ -205,11 +254,13 @@
           <div class="user-test">
               <h3><span class="bar">Use</span>r Testing and Redesign</h3>
               <p>The design mockups from Sketch were uploaded to Invision in order to create a clickable prototype for user-testing. I conducted three in-person usability tests in order to validate my designs. I instructed users to:</p>
+              <div class="highlight">
                     <h6>
-                      	1. 	Look through the <strong>Landing Page</strong> and give initial thoughts on what the site was for and welcomed any additional comments on  layout, visual design, or functionality.<br>
-                      	2. 	Go through the process of <strong>signing up</strong>   as a new user, paying close attention to cursor movements and user activity.<br>
-                      	3. 	Once signed up, to go through the process of <strong>adding</strong> any type of content (Note, Image, Link).<br>
+                      	<strong>1.</strong> 	Look through the <strong>Landing Page</strong> and give initial thoughts on what the site was for and welcomed any additional comments on  layout, visual design, or functionality.<br>
+                      	<strong>2.</strong> 	Go through the process of <strong>signing up</strong>   as a new user, paying close attention to cursor movements and user activity.<br>
+                      	<strong>3.</strong> 	Once signed up, to go through the process of <strong>adding</strong> any type of content (Note, Image, Link).<br>
                   </h6>
+              </div>
               <p>Although the on-boarding process had a 100% success rate, I did notice that it took users a long time to get to the Dashboard as a new user. I decreased the amount of onboarding screens from 4 to 3, streamlining the process. This change now allows users to start using the product almost immediately. </p>
               <img src="images/Blocbox_Onboarding.png" alt="MR_Banner1"><br><br>
               <p>The blocbox landing page originally incorporated clouds into the design, but results from A/B testing showed that by doing so, the white text on the green became harder to read. To fix this issue, I reduced the block size of green, changed the text color to the same green, and placed it against the light grey background to improve readability. </p>

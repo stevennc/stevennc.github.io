@@ -218,6 +218,9 @@ a:hover {
     width: 350px;
     margin-bottom: 40px;
   }
+  #site-footer .footer a:nth-child(1) {
+    padding-bottom: 20px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -245,7 +248,7 @@ a:hover {
 
 
   #site-footer .footer a:nth-child(1) {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     float: left;
   }
   #site-footer .footer span {
@@ -346,7 +349,7 @@ a:hover {
   }
 
   #site-footer .footer span {
-    margin-top:30px;
+    margin-top:35px;
   }
 }
 

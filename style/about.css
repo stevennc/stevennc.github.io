@@ -138,6 +138,9 @@ main {
     width: 350px;
     margin-bottom: 40px;
   }
+  #site-footer .footer a:nth-child(1) {
+    padding-bottom: 20px;
+  }
 }
 main {
   margin-top:50vh !important;
@@ -154,7 +157,7 @@ main {
     margin-top:65vh !important;
   }
   #site-footer .footer a:nth-child(1) {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     float: left;
   }
   #site-footer .footer span {
@@ -237,7 +240,7 @@ main {
   }
 
   #site-footer .footer span {
-    margin-top:30px;
+    margin-top:35px;
   }
 }
 
