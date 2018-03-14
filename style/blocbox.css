@@ -44,7 +44,7 @@ a.anchor{
 }
 
 .link {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size:18px;
@@ -145,14 +145,14 @@ a.anchor{
 }
 
 h1 {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size:30px;
   line-height:20px;
 }
 h2{
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size:26px;
@@ -160,7 +160,7 @@ h2{
 }
 
 h3 {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size: 18px;
@@ -180,7 +180,7 @@ h4 {
 }
 
 .section-title h4 {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   color: #8B8B8B;
   font-style:normal;
   font-weight:500;
@@ -231,7 +231,7 @@ h6 {
 }
 
 .connect a {
-  font-family:'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family:'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style: normal;
   font-weight:500;
   font-size:16px;
@@ -264,7 +264,7 @@ h6 {
 }
 
 #navbarNavDropdown .navbar-nav > li > a {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #FFF; /* IE8 proofing */
@@ -476,7 +476,7 @@ h6 {
   #navbarNavAltMarkup .navbar-nav > li > a {
     padding-right: 10px;
     padding-left: 10px;
-    font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #000; /* IE8 proofing */
@@ -508,7 +508,7 @@ h6 {
    margin-left:-5px;
   }
   #navbarNavDropdown .navbar-nav > li > a {
-    font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #FFF; /* IE8 proofing */

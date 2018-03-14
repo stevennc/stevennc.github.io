@@ -14,7 +14,7 @@ a.anchor{
   padding-left:8px;
 }
 .work-anchor h4 {
-    font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
     color: #8B8B8B;
     font-style:normal;
     font-weight:500;
@@ -61,7 +61,7 @@ a.anchor{
 }
 
 h1 {
-  font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 600;
   font-size:29px;
@@ -99,7 +99,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
@@ -285,7 +285,7 @@ a:hover {
   #navbarNavAltMarkup .navbar-nav > li > a {
     padding-right: 10px;
     padding-left: 10px;
-    font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #000; /* IE8 proofing */

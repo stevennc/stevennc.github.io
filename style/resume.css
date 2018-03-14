@@ -82,7 +82,7 @@ a:hover {
   font-size:14px;
 }
 .link {
-  font-family: 'futura', 'futura-pt-bold', 'Open Sans', sans-serif;
+  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
   font-style:normal;
   font-weight: 500;
   font-size:16px;
@@ -168,7 +168,7 @@ a:hover {
   #navbarNavAltMarkup .navbar-nav > li > a {
     padding-right: 10px;
     padding-left: 10px;
-    font-family: 'futura','futura-pt-bold', 'Open Sans', sans-serif;
+    font-family: 'futura','futura-pt-bold', 'Hind', sans-serif;
     font-size: 16px;
     font-weight: 500;
     color: #000; /* IE8 proofing */
