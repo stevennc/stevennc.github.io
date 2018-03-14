@@ -23,10 +23,12 @@ a.anchor{
     text-align: center;
     padding-bottom:40px;
 }
-
+.rwd-line-always {
+  display: block;
+}
 .hero-content {
   margin-top:80px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 10px;
   padding-bottom: 90px;
@@ -211,6 +213,9 @@ a:hover {
   h2 {
     font-size: 32px;
     line-height: 37px;
+  }
+  .rwd-line-always {
+    display: inline;
   }
   .btn,
   .btn:hover,
