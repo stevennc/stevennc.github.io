@@ -327,6 +327,9 @@ h6 {
   .hero-content img {
     padding-top:20px;
   }
+  .desktop_only .btn {
+    margin-top:20px;
+  }
   .btn,
   .btn:hover,
   .btn:focus {
