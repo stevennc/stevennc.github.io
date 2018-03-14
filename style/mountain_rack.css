@@ -134,10 +134,10 @@ a.anchor{
   font-style:italic;
   font-weight: 600i;
   font-size:18px;
-  color: #FFF;
+  color: #000;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #000;
-  border-color: #000;
+  background-color: #DCDCDC;
+  border-color: #DCDCDC;
   border-radius: 0px 0px;
   box-shadow:0px 1px 1px rgba(75,75,75,0.5);
   width: 160px;
@@ -224,7 +224,6 @@ h6 {
   border-color: #000;
   border-radius: 0px 0px;
   width: 150px;
-  margin-top:-20px;
   margin-bottom: 40px;
   box-shadow:0px 3px 8px rgba(75,75,75,0.5);
 }
@@ -327,6 +326,7 @@ h6 {
   .btn:hover,
   .btn:focus {
     width: 350px;
+    margin-top:-20px;
     margin-bottom: 40px;
   }
   #site-footer .footer a:nth-child(1) {
