@@ -57,7 +57,7 @@ a.anchor{
 }
 
 .hero-content img {
-  padding-top:30px;
+  margin-top:-20px;
   width:150%;
 }
 .overview .subtitle {
@@ -127,6 +127,7 @@ a.anchor{
 .desktop_only {
   display: none;
 }
+
 .desktop_only .btn,
 .desktop_only .btn:hover,
 .desktop_only .btn:focus {
@@ -141,7 +142,7 @@ a.anchor{
   border-radius: 0px 0px;
   box-shadow:0px 0px 0px rgba(75,75,75,0.5);
   width: 160px;
-  margin-top:-10px;
+  margin-top:15px;
   margin-bottom: 35px;
 }
 .desktop_only .btn:hover{
@@ -193,7 +194,7 @@ h4 {
   font-size:20px;
   line-height:29px;
   text-align: center;
-  padding-top:20px;
+  padding-top:40px;
 }
 
 h5 {
@@ -325,11 +326,9 @@ h6 {
     top:-135px;
   }
   .hero-content img {
-    padding-top:20px;
+    padding-top:30px;
   }
-  .desktop_only .btn {
-    margin-top:20px;
-  }
+
   .btn,
   .btn:hover,
   .btn:focus {
@@ -354,7 +353,7 @@ h6 {
     padding-bottom:5px;
   }
   .hero-content img {
-    padding-top:70px;
+    margin-top:-40px;
     width:100%;
   }
   .header .title {
@@ -544,6 +543,10 @@ h6 {
   .navbar-brand{
     margin-left:0px;
   }
+
+  .header .title {
+    padding-top:0px;
+  }
   h1 {
     font-size:34px;
   }
@@ -593,6 +596,10 @@ h6 {
 @media (min-width: 1300px) {
   .container {
     max-width:1060px;
+  }
+  .hero-content img {
+    margin-top:-140px;
+    width:100%;
   }
   #site-footer .footer span {
     float:left;
