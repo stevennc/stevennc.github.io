@@ -352,7 +352,7 @@ h6 {
     padding-bottom:5px;
   }
   .hero-content img {
-    padding-top:70px;
+    padding-top:60px;
     width:100%;
   }
   .header .title {
@@ -589,6 +589,8 @@ h6 {
   .container {
     max-width:1060px;
   }
+  .hero-content img {
+    padding-top:30px;
   #site-footer .footer span {
     float:left;
     margin-left:27px;
