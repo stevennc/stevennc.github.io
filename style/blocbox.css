@@ -21,8 +21,7 @@ body {
   padding-top: 40px;
 }
 .main-content .bar {
-  border-top: 4px solid black;
-  height:20px;
+  margin-bottom: -12px;
 }
 .main-content img {
   width:100%

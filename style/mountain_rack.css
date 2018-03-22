@@ -21,8 +21,7 @@ body {
   padding-top: 20px;
 }
 .main-content .bar {
-  border-top: 4px solid black;
-  height:20px;
+  margin-bottom: -12px;
 }
 .main-content img {
   width:100%;
@@ -591,6 +590,7 @@ h6 {
   }
   .hero-content img {
     padding-top:30px;
+  }
   #site-footer .footer span {
     float:left;
     margin-left:27px;
