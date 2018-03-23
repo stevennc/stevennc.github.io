@@ -42,27 +42,24 @@ body {
 }
 
 h1 {
-  font-family: 'futura', 'futura-pt-bold', 'Hind', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-style:normal;
-  font-weight: 500;
-  font-size:30px;
-  line-height:20px;
+  font-weight: 700;
+  font-size:42px;
+  line-height:24px;
   text-align: center;
+  padding-bottom:10px;
 }
-h2{
+p, h2 {
   font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
-  font-weight: 600i;
-  font-size: 21px;
-  line-height: 28px;
-  margin-top:10px;
-}
-p {
-  font-family: 'Cormorant Garamond', serif;
-  font-style: italic;
+  font-style: normal;
   font-weight:500;
   font-style: normal;
   font-size:18px;
+  line-height:26px;
+}
+h2 {
+  font-size:21px;
   line-height:26px;
 }
 h3 {
@@ -111,12 +108,16 @@ a:hover {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-
   .btn,
   .btn:hover,
   .btn:focus {
     width: 350px;
     margin-bottom: 40px;
+  }
+  h1 {
+    font-size:50px;
+    line-height:50px;
+    padding-bottom:0px;
   }
   #site-footer .footer a:nth-child(1) {
     padding-bottom: 20px;
@@ -156,8 +157,9 @@ a:hover {
     margin-left:-20px;
   }
   h1 {
-    font-size:32px;
-    line-height:36px;
+    font-size:60px;
+    line-height:50px;
+    padding-bottom:5px;
   }
   p {
     line-height:27px;
@@ -214,9 +216,6 @@ a:hover {
   h3, p {
     font-size: 24px;
     line-height: 27px;
-  }
-  h1 {
-    font-size:34px;
   }
   p {
     font-size:18px;
