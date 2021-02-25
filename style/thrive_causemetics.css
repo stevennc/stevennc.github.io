@@ -50,16 +50,15 @@ html {
   margin: 0 auto;
   padding: 0;
   overflow-x: hidden;
+  overflow-y:scroll;
 }
 
 body{
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: hidden;
 }
 
 #site-footer {
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .col-number {
@@ -611,30 +610,5 @@ h5 {
   }
   .hero-content img {
     padding-top:30px;
-    /* width:75vw;
-    max-width:75vw;
-    margin:auto; */
   }
-  /* .back-to-top {
-    background-color: #000000;
-    text-align:center;
-    left: 50%;
-  	margin-left: -50vw;
-  	margin-right: -50vw;
-  	max-width: 75vw;
-  	position: relative;
-  	right: 50%;
-  	width: 75vw;
-    padding:32px 0 32px 0;
-  }
-  .full-width {
-    left: 50%;
-  	margin-left: -50vw;
-  	margin-right: -50vw;
-  	max-width: 75vw;
-  	position: relative;
-  	right: 50%;
-  	width: 75vw;
-    margin-top: 56px;
-  } */
 }
