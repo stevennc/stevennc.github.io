@@ -196,7 +196,7 @@ line-height:25px;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 .right-type-section {
@@ -253,7 +253,7 @@ body {
 
 .navbar-brand{
   padding-left:8px;
-} */
+}
 
 .main-content .bar {
   margin-bottom: -12px;
@@ -301,7 +301,7 @@ p  {
   font-style:normal;
   font-weight: 400;
   font-size:16px;
-  line-height: 26px;
+  line-height: 24px;
 }
 
 h5 {
@@ -382,7 +382,7 @@ h5 {
     padding-bottom:16px;
   }
   p {
-    font-size:15px;
+    font-size:16px;
     padding-bottom:0px;
     line-height:21px;
   }
@@ -396,10 +396,6 @@ h5 {
   .credits {
     background-color: #FAFAFA;
     padding: 64px 16px 88px 32px;
-  }
-  .pbold {
-    font-size:16px;
-    line-height:26px;
   }
   .goals {
     max-width:991.98px;
