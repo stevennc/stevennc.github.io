@@ -201,7 +201,7 @@ margin:0;
   font-family: 'AvenirNext', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color:#D4D4D4 !important;
   margin: auto;
@@ -311,12 +311,12 @@ h5 {
 }
 #site-footer .footer i{
   padding-top:30px;
-  padding-right:20px;
-  padding-bottom:20px;
-  margin:auto;
+  padding-right:16px;
+  padding-bottom:16px;
+
 }
 #site-footer .footer span {
-  font-size:14px;
+  color:white;
 }
 
 
@@ -330,13 +330,6 @@ h5 {
     font-size: 28px;
     line-height: 32px;
   }
-  .text-muted {
-    padding-left:0px;
-  }
-  /* .rwd-line {
-    padding-top:1px;
-    display:block;
-  } */
   .goals {
     max-width:767.98px;
     margin:auto;
@@ -344,16 +337,6 @@ h5 {
   .hero-content img {
     padding-top:20px;
     src="images/"
-  }
-  .btn,
-  .btn:hover,
-  .btn:focus {
-    width: 350px;
-    margin-top:-20px;
-    margin-bottom: 40px;
-  }
-  #site-footer .footer a:nth-child(1) {
-    padding-bottom: 20px;
   }
 }
 
@@ -370,10 +353,6 @@ h5 {
     font-size:15px;
     padding-bottom:0px;
     line-height:21px;
-  }
-  .text-muted {
-    padding-left:30px;
-    padding-top:10px;
   }
   .mobile_only {
     display: none;
@@ -415,12 +394,17 @@ h5 {
   #nav_bar {
       visibility:visible;
   }
-  #site-footer .footer a:nth-child(1) {
-    padding-bottom: 0px;
-    float: left;
+  .text-muted {
+    padding-top:10px;
   }
-  #site-footer .footer span {
-    float:left;
+  .footer-alt {
+    text-align:right !important;
+  }
+  #site-footer .footer i{
+    padding-top:30px;
+    padding-right:20px;
+    padding-bottom:30px;
+    margin:auto;
   }
 }
 
@@ -479,9 +463,6 @@ h5 {
     line-height: 28px;
     margin-top:10px;
     border-top: 1px solid;
-  }
-  .text-muted {
-    padding-left:70px;
   }
   h1 {
     font-size:48px;
@@ -591,16 +572,6 @@ h5 {
   h5 {
     font-size:15px;
     line-height: 22px;
-  }
-
-  .text-muted {
-    padding-left:30px;
-  }
-  #site-footer .footer span {
-    float:left;
-    margin-left:50px;
-    margin-top:0px;
-    color:white
   }
 }
 

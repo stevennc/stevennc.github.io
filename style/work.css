@@ -127,11 +127,12 @@ body{
 .title {
   padding:88px 0 0 0;
 }
+
 .text-muted {
   font-family: 'AvenirNext', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color:#D4D4D4 !important;
   margin: auto;
@@ -214,12 +215,12 @@ p  {
 }
 #site-footer .footer i{
   padding-top:30px;
-  padding-right:20px;
-  padding-bottom:20px;
-  margin:auto;
+  padding-right:16px;
+  padding-bottom:16px;
+
 }
 #site-footer .footer span {
-  font-size:14px;
+  color:white;
 }
 
 
@@ -233,15 +234,9 @@ p  {
     font-size: 28px;
     line-height: 32px;
   }
-  .text-muted {
-    padding-left:0px;
-  }
 
   .hero-content h1 {
     padding-top:20px;
-  }
-  #site-footer .footer a:nth-child(1) {
-    padding-bottom: 20px;
   }
 }
 
@@ -260,8 +255,10 @@ p  {
     line-height:21px;
   }
   .text-muted {
-    padding-left:30px;
     padding-top:10px;
+  }
+  .footer-alt {
+    text-align:right !important;
   }
   .mobile_only {
     display: none;
@@ -277,12 +274,11 @@ p  {
   #nav_bar {
       visibility:visible;
   }
-  #site-footer .footer a:nth-child(1) {
-    padding-bottom: 0px;
-    float: left;
-  }
-  #site-footer .footer span {
-    float:left;
+  #site-footer .footer i{
+    padding-top:30px;
+    padding-right:20px;
+    padding-bottom:30px;
+    margin:auto;
   }
 }
 
@@ -385,14 +381,6 @@ p  {
   .hero-content h1 {
     padding-top:175px;
     width:100%;
-  }
-
-  #site-footer .footer span {
-    float:left;
-    margin-left:50px;
-    margin-top:0px;
-    color:white
-    padding-left:30px;
   }
 }
 
