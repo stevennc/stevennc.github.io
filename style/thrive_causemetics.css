@@ -249,10 +249,6 @@ body {
   padding-top:64px;
 }
 
-.navbar-brand{
-  padding-left:8px;
-} */
-
 .main-content .bar {
   margin-bottom: -12px;
 }
@@ -370,6 +366,9 @@ h5 {
   .mobile_only {
     display: none;
   }
+  .navbar-brand {
+    padding-left:20px;
+  }
   .credits {
     background-color: #FAFAFA;
     padding: 64px 16px 88px 32px;
@@ -431,9 +430,6 @@ h5 {
   .goals {
     max-width:1199.98px;
     margin:auto;
-  }
-  .navbar-brand{
-    margin-left:-20px;
   }
   .spacer-hide {
     display:none;
@@ -561,9 +557,6 @@ h5 {
   .navbar {
     padding-right:0px;
     max-width:100%;
-  }
-  .navbar-brand{
-    margin-left:0px;
   }
   .goals {
     max-width:1399.98px;

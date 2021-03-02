@@ -169,9 +169,6 @@ body {
   width:100%
 }
 
-.navbar-brand{
-  padding-left:8px;
-}
 
 .main-content .bar {
   margin-bottom: -12px;
@@ -276,7 +273,9 @@ p  {
   .mobile_only {
     display: none;
   }
-
+  .navbar-brand {
+    padding-left:20px;
+  }
   .hero-content h1 {
     padding-top:128px;
     width:100%;
@@ -302,9 +301,7 @@ p  {
     padding-bottom: 16px;
     padding-right:40px
   }
-  .navbar-brand{
-    margin-left:-20px;
-  }
+
   .navbar li {
     margin:0;
     padding: 0;
@@ -379,9 +376,6 @@ p  {
   .navbar {
     padding-right:0px;
     max-width:100%;
-  }
-  .navbar-brand{
-    margin-left:0px;
   }
 
   h1 {

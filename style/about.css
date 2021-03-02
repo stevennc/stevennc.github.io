@@ -102,10 +102,6 @@ body{
   padding-bottom:48px;
 }
 
-.navbar-brand{
-  padding-left:8px;
-}
-
 .main-content > .container{
   padding-top:120px;
   display:block;
@@ -170,9 +166,6 @@ p  {
   font-size:16px;
   line-height: 24px;
   padding-bottom:24px;
-}
-.navbar-brand{
-  padding-left:8px;
 }
 
 
@@ -279,6 +272,9 @@ main {
   .footer-alt {
     text-align:right !important;
   }
+  .navbar-brand {
+    padding-left:20px;
+  }
   #site-footer .footer i{
     padding-top:30px;
     padding-right:20px;
@@ -298,9 +294,7 @@ main {
     padding-bottom: 16px;
     padding-right:40px
   }
-  .navbar-brand{
-    margin-left:-20px;
-  }
+
   .navbar li {
     margin:0;
     padding: 0;
@@ -384,9 +378,7 @@ main {
     max-width:100%;
   }
 
-  .navbar-brand{
-    margin-left:0px;
-  }
+
 
   main {
     margin-top:60vh !important;
