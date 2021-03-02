@@ -21,6 +21,13 @@
   font-weight: 600;
 }
 
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2.25s;
+    animation-duration: 2.25s;
+}
+
 html {
   margin: 0 auto;
   padding: 0;

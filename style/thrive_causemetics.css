@@ -20,6 +20,19 @@
   font-style: normal;
   font-weight: 600;
 }
+.fadeInDown {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2.25s;
+    animation-duration: 2.25s;
+}
 
 .back-to-top {
   background-color: #000000;
