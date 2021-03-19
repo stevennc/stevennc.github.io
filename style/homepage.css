@@ -34,7 +34,22 @@
     -webkit-animation-duration: 2.25s;
     animation-duration: 2.25s;
 }
-
+.body_copy a {
+  font-family: 'AvenirNext', serif;
+  font-style:normal;
+  font-weight: 600;
+  font-size:16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color:#000000;
+  opacity: 100%;
+}
+.body_copy a:hover {
+  opacity: 69%;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
 .back-to-top {
   background-color: #000000;
   text-align:center;
@@ -56,10 +71,12 @@
   font-size:28px;
   line-height: 38px;
   color:#FFFFFF;
+  text-decoration: none;
 }
 
 .back-to-top a:hover {
   text-decoration: line-through;
+  opacity:100%;
 }
 html {
   margin: 0 auto;
