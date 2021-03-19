@@ -80,6 +80,9 @@ body{
   text-decoration: underline;
   color:#000000;
 }
+.body-content a:hover {
+  opacity: 45%;
+}
 .navbar {
   padding-top:16px;
   padding-bottom:16px;
