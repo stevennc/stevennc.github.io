@@ -58,7 +58,7 @@
 }
 
 .back-to-top a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 html {
   margin: 0 auto;
@@ -182,7 +182,7 @@ h1 {
   font-style:normal;
   font-weight: 500;
   font-size:32px;
-  letter-spacing: -0.5px;
+  letter-spacing: -1.5px;
 }
 
 
@@ -357,7 +357,7 @@ p  {
   }
   #navbarNavAltMarkup .navbar-nav > li > a:hover,
   #navbarNavAltMarkup .navbar-nav > li > a:focus {
-    text-decoration: line-through;
+    text-decoration: underline;
     border-top-color: #B5B5B5;
     border-top-color: rgba(0,0,0,1);
   }
