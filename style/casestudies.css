@@ -34,21 +34,17 @@
     -webkit-animation-duration: 2.25s;
     animation-duration: 2.25s;
 }
-.body_copy a {
-  font-family: 'AvenirNext', serif;
-  font-style:normal;
-  font-weight: 600;
-  font-size:16px;
-  line-height: 24px;
-  text-decoration: underline;
-  color:#000000;
-  opacity: 100%;
+
+.body_copy img {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  transition: 0.25s all ease-in-out;
 }
-.body_copy a:hover {
-  opacity: 69%;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+
+.body_copy img:hover {
+  transform: scale(1.01);
+  opacity: 100% !important;
 }
 .back-to-top {
   background-color: #000000;
