@@ -57,7 +57,7 @@
 }
 
 .back-to-top a:hover {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 html {
   margin: 0 auto;
