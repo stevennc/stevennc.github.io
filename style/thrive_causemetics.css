@@ -153,10 +153,6 @@ margin:0;
   width:2.5rem !important;
 }
 
-.navbar {
-  padding-top:16px;
-  padding-bottom:16px;
-}
 .navbar li {
   margin:auto;
   padding:16px 0 16px 0;
@@ -424,8 +420,6 @@ h5 {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .navbar {
-    padding-top: 16px;
-    padding-bottom: 16px;
     padding-right:40px
   }
   .goals {
