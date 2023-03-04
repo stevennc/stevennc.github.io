@@ -42,10 +42,10 @@
   transition: 0.25s all ease-in-out;
 }
 
-.body_copy img:hover {
+/* .body_copy img:hover {
   transform: scale(1.01);
   opacity: 100% !important;
-}
+} */
 .back-to-top {
   background-color: #000000;
   text-align:center;
