@@ -450,7 +450,7 @@ h5 {
     font-family: 'AvenirNext', sans-serif;
     font-style:normal;
     font-weight: 400;
-    font-size:18px;
+    font-size:16px;
     line-height: 41px;
   }
   .user-feedback {
@@ -552,7 +552,7 @@ h5 {
     padding-right: 10px;
     padding-left: 10px;
     font-family: 'AvenirNext,', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #000000; /* IE8 proofing */
     color: rgba(0,0,0,.75);

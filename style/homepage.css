@@ -44,12 +44,12 @@
   color:#000000;
   opacity: 100%;
 }
-.body_copy a:hover {
+/* .body_copy a:hover {
   opacity: 69%;
   -webkit-transition: opacity 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
-}
+} */
 .back-to-top {
   background-color: #000000;
   text-align:center;
@@ -315,7 +315,7 @@ p  {
     font-family: 'AvenirNext', sans-serif;
     font-style:normal;
     font-weight: 400;
-    font-size:18px;
+    font-size:16px;
     line-height: 41px;
   }
   .navbar li:nth-child(1) {
@@ -340,7 +340,7 @@ p  {
 
   h1 {
     font-size:41px;
-    line-height:49px;
+    line-height:56px;
   }
   .main-content {
     max-width:1199.98px;
@@ -357,7 +357,7 @@ p  {
     padding-right: 10px;
     padding-left: 10px;
     font-family: 'AvenirNext,', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #000000; /* IE8 proofing */
     color: rgba(0,0,0,.75);
@@ -384,7 +384,7 @@ p  {
 
   h1 {
     font-size:48px;
-    line-height: 56px;
+    line-height: auto;
   }
   .hero-content h1 {
     padding-top:175px;
