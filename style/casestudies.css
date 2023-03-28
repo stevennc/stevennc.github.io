@@ -85,6 +85,11 @@ body{
   overflow: hidden;
 }
 
+.images img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  margin: 8px 0 64px 0!important;
+}
+
 #site-footer {
   overflow: hidden;
 }
@@ -183,7 +188,7 @@ h1 {
   font-style:normal;
   font-weight: 500;
   font-size:32px;
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
 }
 
 
@@ -306,7 +311,7 @@ p  {
     font-family: 'AvenirNext', sans-serif;
     font-style:normal;
     font-weight: 400;
-    font-size:16px;
+    font-size:14px;
     line-height: 41px;
   }
   .navbar li:nth-child(1) {
@@ -326,7 +331,7 @@ p  {
     line-height: 38px;
   }
   .title {
-    padding:32px 0 32px 0;
+    margin:32px 0 0 0;
   }
 
   h1 {
@@ -349,7 +354,7 @@ p  {
     padding-right: 10px;
     padding-left: 10px;
     font-family: 'AvenirNext,', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #000000; /* IE8 proofing */
     color: rgba(0,0,0,.75);
@@ -378,7 +383,7 @@ p  {
     line-height: 56px;
   }
   .hero-content h1 {
-    padding-top:175px;
+    padding-top:200px;
     margin:0 0 48px 0;
     width:100%;
   }

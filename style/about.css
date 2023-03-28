@@ -107,13 +107,22 @@ body{
   margin: 40px 0 16px 0;
 }
 
+.overview h4 {
+  /* font-family: 'AvenirNext', sans-serif;
+  font-style:normal; */
+  margin: 40px 0 0 0;
+  font-size:26px;
+  /* letter-spacing: -1.2px;
+  line-height: 32px; */
+}
+
 .overview a {
   font-family: inherit;
   font-style:normal;
   font-weight: 400;
   text-decoration: underline;
   color:#000000;
-  font-size:1.5rem;
+  font-size:16px;
 }
 
 .navbar li {
@@ -313,7 +322,7 @@ p  {
     font-family: 'AvenirNext', sans-serif;
     font-style:normal;
     font-weight: 400;
-    font-size:16px;
+    font-size:14px;
     line-height: 41px;
   }
   .navbar li:nth-child(1) {
@@ -359,7 +368,7 @@ p  {
     padding-right: 10px;
     padding-left: 10px;
     font-family: 'AvenirNext,', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: #000000; /* IE8 proofing */
     color: rgba(0,0,0,.75);
@@ -389,7 +398,7 @@ p  {
     line-height: 56px;
   }
   .hero-content h1 {
-    padding-top:175px;
+    padding-top:200px;
     margin:0 0 48px 0;
     width:100%;
   }
