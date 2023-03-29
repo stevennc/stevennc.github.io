@@ -99,7 +99,7 @@ body{
 
 
 .hero-content h1 {
-  padding-top:125px;
+  padding-top:195px;
   width:98%;
   margin-left:-15px;
 }
@@ -119,7 +119,7 @@ body{
 
 .navbar li {
   margin:auto;
-  padding:16px 0 16px 0;
+  padding:21px 0 21px 0;
   font-family: 'AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
@@ -387,7 +387,7 @@ p  {
     line-height: auto;
   }
   .hero-content h1 {
-    padding-top:175px;
+    padding-top:200px;
     width:100%;
   }
 
