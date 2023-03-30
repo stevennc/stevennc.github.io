@@ -147,6 +147,9 @@ body{
   line-height: 24px;
 }
 
+.revinia {
+  padding-top:40px;
+}
 
 .text-muted {
   font-family: 'AvenirNext', sans-serif;
@@ -342,6 +345,10 @@ p  {
   .main-content {
     max-width:1199.98px;
     margin:auto;
+  }
+
+  .revinia {
+    padding-top:0px;
   }
 
   #navbarNavAltMarkup .navbar-nav > li {
