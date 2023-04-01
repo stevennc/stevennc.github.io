@@ -20,6 +20,12 @@
   font-style: normal;
   font-weight: 600;
 }
+@font-face {
+  font-family: 'EditorialNew';
+  src:url("../fonts/PPEditorialNew-UltralightItalic.otf") format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
 .fadeInDown {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
@@ -173,11 +179,11 @@ body {
 }
 
 h1 {
-  font-family: 'AvenirNext', sans-serif;
+  font-family: 'EditorialNew','AvenirNext', sans-serif;
   font-style:normal;
-  font-weight: 500;
-  font-size:32px;
-  letter-spacing: -2px;
+  font-weight: 400;
+  font-size:36px;
+  line-height:50px;
 }
 
 
@@ -188,6 +194,7 @@ h2{
   font-size:30px;
   line-height: 43px;
   padding-bottom:16px;
+  letter-spacing:-1px;
 }
 
 h3 {
@@ -325,8 +332,8 @@ p  {
     width:100%;
   }
   h1 {
-    font-size:41px;
-    line-height:49px;
+    font-size:45px;
+    line-height:56px;
   }
   .main-content {
     max-width:1199.98px;
@@ -372,8 +379,8 @@ p  {
   }
 
   h1 {
-    font-size:48px;
-    line-height: 56px;
+    font-size:56px;
+    line-height:71px;
   }
   .hero-content h1 {
     padding-top:175px;
