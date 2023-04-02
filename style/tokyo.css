@@ -314,7 +314,7 @@ h5 {
   line-height: 22px;
   color: #ABABAB;
   letter-spacing: .2px;
-  margin-bottom: 5px;
+  margin: -10px 0 5px 0;
 }
 
 #nav_bar {
@@ -520,6 +520,7 @@ h5 {
   h5 {
     font-size:15px;
     line-height: 22px;
+    margin-top:-4px;
   }
 
   h6 {
