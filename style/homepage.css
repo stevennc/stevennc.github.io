@@ -391,7 +391,7 @@ p  {
 
   h1 {
     font-size:56px;
-    line-height:71px;
+    line-height:72px;
   }
   .hero-content h1 {
     padding-top:200px;
@@ -407,6 +407,5 @@ p  {
   .hero-content h1 {
     margin-left:15px;
     font-size:56px;
-    line-height:64px;
   }
 }
