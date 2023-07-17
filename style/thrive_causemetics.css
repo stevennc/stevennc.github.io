@@ -166,7 +166,7 @@ margin:0;
   font-style:normal;
   font-weight: 400;
   font-size:29px;
-  line-height: 41px;
+  line-height: 24px;
 }
 
 .navbar li:nth-child(1) {
@@ -443,7 +443,7 @@ h5 {
     font-style:normal;
     font-weight: 400;
     font-size:14px;
-    line-height: 41px;
+    line-height: 24px;
   }
   .user-feedback {
     margin:24px 0 112px 0;

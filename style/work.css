@@ -115,7 +115,7 @@ body{
   font-style:normal;
   font-weight: 400;
   font-size:29px;
-  line-height: 41px;
+  line-height: 24px;
 }
 
 .navbar li:nth-child(1) {
@@ -309,7 +309,7 @@ p  {
     font-style:normal;
     font-weight: 400;
     font-size:14px;
-    line-height: 41px;
+    line-height: 24px;
   }
   .navbar li:nth-child(1) {
     padding-top:0px;
