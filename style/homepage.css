@@ -193,8 +193,8 @@ h1 {
   font-family: 'EditorialNew','AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
-  font-size:36px;
-  line-height:50px;
+  font-size:56px;
+  line-height:63px;
 }
 
 
@@ -255,8 +255,8 @@ p  {
     margin-bottom:0px;
   }
   h2 {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 56px;
+    line-height: 56px;
   }
   .hero-content h1 {
     padding-top:20px;
@@ -347,8 +347,8 @@ p  {
   }
 
   h1 {
-    font-size:45px;
-    line-height:56px;
+    font-size:128px;
+    line-height:128px;
   }
   .main-content {
     max-width:1199.98px;
@@ -391,11 +391,11 @@ p  {
   }
 
   h1 {
-    font-size:56px;
-    line-height:72px;
+    font-size:128px;
+    line-height:128px;
   }
   .hero-content h1 {
-    padding-top:200px;
+    padding-top:150px;
     width:100%;
   }
 
@@ -407,6 +407,7 @@ p  {
   }
   .hero-content h1 {
     margin-left:15px;
-    font-size:56px;
+    font-size:144px;
+    line-height:144px;
   }
 }
