@@ -114,6 +114,10 @@ body{
   margin: 40px 0 16px 0;
 }
 
+.overview video {
+  margin: 40px 0 16px 0;
+}
+
 .overview a {
   font-family: inherit;
   font-style:normal;
@@ -239,7 +243,7 @@ p  {
   background-color: #000000;
 }
 #site-footer .footer i{
-  padding-top:30px;
+  /* padding-top:30px; */
   padding-right:16px;
   padding-bottom:16px;
 
