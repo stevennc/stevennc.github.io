@@ -109,6 +109,10 @@ body{
   width:98%;
   margin-left:-15px;
 }
+.hero-content h3 {
+  padding-top:20px;
+  margin-left:-15px;
+}
 
 .overview img {
   margin: 40px 0 16px 0;
@@ -216,8 +220,8 @@ h3 {
   font-family: 'AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
-  font-size:29px;
-  line-height: 38px;
+  font-size:21px;
+  line-height: 28px;
   padding-bottom:8px;
 }
 
@@ -266,6 +270,11 @@ p  {
     padding-top:20px;
     margin-left:-15px;
   }
+  h3 {
+    font-size:21px;
+    line-height: 27px;
+    padding-bottom:8px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -275,6 +284,8 @@ p  {
     line-height:45px;
   }
   h3 {
+    font-size:29px;
+    line-height: 38px;
     padding-bottom:16px;
   }
   p {
