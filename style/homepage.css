@@ -425,4 +425,7 @@ p  {
     font-size:136px;
     line-height:136px;
   }
+  .hero-content h3 {
+    margin-left:10px;
+  }
 }
