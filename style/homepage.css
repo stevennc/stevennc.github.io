@@ -40,6 +40,7 @@
     -webkit-animation-duration: 2.25s;
     animation-duration: 2.25s;
 }
+
 .body_copy a {
   font-family: 'AvenirNext', serif;
   font-style:normal;
@@ -89,6 +90,7 @@ html {
   padding: 0;
   overflow-x: hidden;
   overflow-y:auto;
+  background-color: #fff;
 }
 
 body{
@@ -103,12 +105,25 @@ body{
   display:none;
 }
 
+.hero-content {
+  background-image:url("zooom.gif");
+  background-size:20rem;
+  background-position:50% 20%;
+  background-repeat:no-repeat;
+  position: relative;
+  isolation: isolate;
+}
 
 .hero-content h1 {
+  background-color:#fff;
+  position:relative;
   padding-top:195px;
   width:98%;
   margin-left:-15px;
+  z-index:5;
+  mix-blend-mode:difference;
 }
+
 .hero-content h3 {
   padding-top:20px;
   margin-left:-15px;
@@ -224,7 +239,6 @@ h3 {
   line-height: 28px;
   padding-bottom:8px;
 }
-
 
 p  {
   font-family: 'AvenirNext', serif;
@@ -368,6 +382,7 @@ p  {
   .main-content {
     max-width:1199.98px;
     margin:auto;
+    position:relative;
   }
 
   #navbarNavAltMarkup .navbar-nav > li {
@@ -413,7 +428,14 @@ p  {
     padding-top:150px;
     width:100%;
   }
-
+  .hero-content {
+    background-image:url("zooom.gif");
+    background-size:28rem;
+    background-position:92% 21%;
+    background-repeat:no-repeat;
+    position: relative;
+    isolation: isolate;
+  }
 }
 
 @media (min-width: 1300px) {
