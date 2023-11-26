@@ -229,8 +229,9 @@ h3 {
   font-family: 'AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
-  font-size:21px;
-  line-height: 28px;
+  font-size:16px;
+  line-height: 24px;
+  letter-spacing:-.1px;
   padding-bottom:8px;
 }
 
@@ -302,17 +303,16 @@ p  {
     line-height:21px;
     margin-top:-13px;
   }
-  .mobile_only {
-    display: none;
+  .desktop_only {
+    display: block;
   }
-
+  .mobile_only {
+    display:none;
+  }
   .hero-content h1 {
     padding-top:150px;
     width:100%;
     margin-left:-15px;
-  }
-  .desktop_only {
-    display: block;
   }
   .navbar-brand {
     padding-left:20px;
