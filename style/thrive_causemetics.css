@@ -87,6 +87,11 @@ body{
   word-wrap: break-word;
 }
 
+.col-number h3 {
+  padding-top:16px !important;
+  padding-bottom:16px !important;
+}
+
 .col-number p {
 margin:0;
 padding:0;
@@ -156,7 +161,6 @@ margin:0;
 .line {
   margin: 0 16px 0 16px;
   border-top:1px solid black;
-  width:2.5rem !important;
 }
 
 .navbar li {
