@@ -26,12 +26,6 @@
   font-style: normal;
   font-weight: 500;
 }
-.col-number {
-  display: inline-flex;
-  align-items: center;
-  margin:0 0 24px 0;
-  word-wrap: break-word;
-}
 .fadeInDown {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
@@ -44,22 +38,6 @@
     animation-name: fadeIn;
     -webkit-animation-duration: 2.25s;
     animation-duration: 2.25s;
-}
-.full-width {
-  left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	max-width: 100vw;
-	position: relative;
-	right: 50%;
-	width: 100vw;
-  margin-top: 56px;
-}
-.fifty-text {
-  background-color:#FAFAFA;
-  padding: 64px 0 32px 0;
-  margin-bottom:56px;
-  /* margin:64px 0 0 0; */
 }
 .body_copy a {
   text-decoration: underline;
