@@ -221,7 +221,7 @@ h2{
   margin-bottom:-1px;
 }
 
-h3 {
+h3, h4 {
   font-family: 'AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
@@ -229,6 +229,10 @@ h3 {
   line-height: 24px;
   letter-spacing:-.1px;
   padding-bottom:8px;
+}
+
+h4 {
+  margin-top:-8px;
 }
 
 p  {
@@ -264,7 +268,7 @@ p  {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     margin-bottom:0px;
   }
   h2 {
@@ -276,7 +280,7 @@ p  {
     padding-top:20px;
     margin-left:-15px;
   }
-  h3 {
+  h3, h4 {
     font-size:21px;
     line-height: 27px;
     padding-bottom:8px;
@@ -289,10 +293,13 @@ p  {
     font-size:36px;
     line-height:45px;
   }
-  h3 {
+  h3, h4 {
     font-size:24px;
     line-height: 36px;
     padding-bottom:29px;
+  }
+  h4 {
+    margin-top:-24px;
   }
   p {
     font-size:16px;
