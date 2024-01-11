@@ -314,6 +314,10 @@ h5 {
   margin: -10px 0 5px 0;
 }
 
+video {
+  clip-path: inset(1px 1px);
+}
+
 #nav_bar {
   visibility: hidden;
 }
