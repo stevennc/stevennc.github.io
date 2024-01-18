@@ -91,14 +91,14 @@ html {
   overflow-y:auto;
 }
 
-a:hover {
+/* a:hover {
  cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/pixelated2.png') 23 0, auto !important;
 }
 
 body{
   overflow: hidden;
   cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/pixelated1.png'), auto !important;
-}
+} */
 
 #site-footer {
   overflow: hidden;
