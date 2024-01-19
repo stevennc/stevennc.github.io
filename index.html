@@ -82,7 +82,7 @@
           </div>
           <div class="images desktop_only col-sm-12 col-md-7">
             <a href="madready.html">
-              <video class="mh-100 mw-100" autoplay muted loop>
+              <video id="project-video" class="mh-100 mw-100" muted loop>
                 <source src="images/Homepage/MRP_HP.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
@@ -98,7 +98,7 @@
           </div>
           <div class="images desktop_only col-sm-12 col-md-7">
             <a href="tiffany.html">
-              <video class="mh-100 mw-100" autoplay muted loop>
+              <video id="tiffany-video" class="mh-100 mw-100" loop muted>
                 <source src="images/Homepage/tiffany.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
@@ -116,7 +116,7 @@
           </div>
           <div class="images desktop_only col-sm-12 col-md-7">
             <a href="blackhalo.html">
-              <video class="mh-100 mw-100" autoplay muted loop>
+              <video id="blackhalo-video" class="mh-100 mw-100" loop muted>
                 <source src="images/Homepage/blackhalo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
@@ -133,7 +133,7 @@
           </div>
           <div class="images desktop_only col-sm-12 col-md-7">
             <a href="worldcup.html">
-              <video class="mh-100 mw-100" autoplay muted loop>
+              <video id="worldcup-video" class="mh-100 mw-100" loop muted>
                 <source src="images/Homepage/worldcup.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
@@ -159,7 +159,7 @@
           </div>
           <div class="images desktop_only col-sm-12 col-md-7">
             <a href="jacquemus.html">
-              <video class="mh-100 mw-100" autoplay muted loop>
+              <video id="jacquemus-video" class="mh-100 mw-100" loop muted>
                 <source src="images/Homepage/jacquemus.mp4" type="video/mp4">
                   Your browser does not support the video tag.
               </video>
@@ -210,4 +210,36 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+  $(function() {
+    var screenWidth = $(window).width();
+    if (screenWidth >= 800) {
+      $('#tiffany-video').attr('autoplay', 'autoplay');
+    }
+  });
+  </script>
+  <script>
+  $(function() {
+    var screenWidth = $(window).width();
+    if (screenWidth >= 800) {
+      $('#blackhalo-video').attr('autoplay', 'autoplay');
+    }
+  });
+  </script>
+  <script>
+  $(function() {
+    var screenWidth = $(window).width();
+    if (screenWidth >= 800) {
+      $('#worldcup-video').attr('autoplay', 'autoplay');
+    }
+  });
+  </script>
+  <script>
+  $(function() {
+    var screenWidth = $(window).width();
+    if (screenWidth >= 800) {
+      $('#jacquemus-video').attr('autoplay', 'autoplay');
+    }
+  });
+  </script>
 </html>
