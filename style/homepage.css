@@ -201,9 +201,7 @@ body {
 .vl {
   border-left: 1.35px solid black;
   height: 200px;
-  position: relative;
-  left: 50%;
-  margin-left: -3px;
+  margin-left:50%;
   padding-top:16px;
   top: 0;
 }
