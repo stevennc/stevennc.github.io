@@ -159,8 +159,25 @@ body{
   line-height: 24px;
 }
 
+.tag {
+  width: calc((100% / 11) * 7);
+  padding: 8px 12px;
+  text-align:center;
+  background-color: white;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 32px;
+  font-family: 'AvenirNext', serif;
+  font-style:normal;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 24px;
+  letter-spacing:-.1px;
+}
+
 .thanks {
   margin-top:120px;
+  margin-bottom:20px;
 }
 
 .text-muted {
@@ -190,7 +207,6 @@ body {
   position:fixed;
   width:100%
 }
-
 .main-content .bar {
   margin-bottom: -12px;
 }
@@ -205,7 +221,6 @@ body {
   padding-top:16px;
   top: 0;
 }
-
 h1 {
   font-family: 'EditorialNew','AvenirNext', sans-serif;
   font-style:normal;
@@ -213,8 +228,6 @@ h1 {
   font-size:56px;
   line-height:63px;
 }
-
-
 h2{
   font-family: 'EditorialNew','AvenirNext', sans-serif;
   font-style:normal;
@@ -223,7 +236,6 @@ h2{
   line-height:42px;
   margin-bottom:-1px;
 }
-
 h3, h4 {
   font-family: 'AvenirNext', sans-serif;
   font-style:normal;
@@ -233,11 +245,9 @@ h3, h4 {
   letter-spacing:-.1px;
   padding-bottom:8px;
 }
-
 h4 {
   margin-top:-8px;
 }
-
 p  {
   font-family: 'AvenirNext', serif;
   font-style:normal;
@@ -247,8 +257,6 @@ p  {
   letter-spacing:-.1px;
   margin-bottom:8px !important;
 }
-
-
 #nav_bar {
   visibility: hidden;
 }
@@ -277,7 +285,6 @@ p  {
   h2 {
     font-size: 56px;
     line-height: 56px;
-    padding-bottom:16px;
   }
   .hero-content h1 {
     text-align: center;
@@ -290,8 +297,18 @@ p  {
     line-height:27px;
     padding-bottom:8px;
   }
+  .overview video {
+    margin: 40px 0 4px 0;
+  }
+  .SFtag .tag{
+    margin:auto;
+  }
   .thanks {
     text-align: center;
+    margin-bottom:40px;
+  }
+  .thanks .tag {
+    margin: auto;
   }
 }
 
@@ -300,10 +317,11 @@ p  {
   h2 {
     font-size:36px;
     line-height:45px;
+    padding-bottom:8px;
   }
   h3, h4 {
     font-size:16px;
-    line-height:29px;
+    line-height:24px;
     padding-bottom:29px;
   }
   h4 {
@@ -326,11 +344,18 @@ p  {
     width:100%;
     margin-left:-15px;
   }
+
   .navbar-brand {
     padding-left:20px;
   }
+  .overview video {
+    margin: 40px 0 16px 0;
+  }
   #nav_bar {
       visibility:visible;
+  }
+  .tag{
+    width:40%;
   }
   .text-muted {
     padding-top:10px;
@@ -349,8 +374,6 @@ p  {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .navbar {
-    /* padding-top: 16px;
-    padding-bottom: 16px; */
     padding-right:40px
   }
   .navbar li {
@@ -373,6 +396,9 @@ p  {
       z-index: 100;
       position: fixed;
       width: 100%;
+  }
+  .tag{
+    width:32%;
   }
   .back-to-top a {
     font-size:28px;
@@ -428,6 +454,9 @@ p  {
   .navbar {
     padding-right:0px;
     max-width:100%;
+  }
+  .tag {
+    width:24%;
   }
 
   h1 {

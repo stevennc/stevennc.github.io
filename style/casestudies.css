@@ -162,11 +162,40 @@ body{
   font-size: 16px;
   line-height: 24px;
 }
-
 .revinia {
   padding-top:40px;
 }
-
+.button{
+  text-align: center;
+}
+.button a.anchor {
+  top: 500px;
+}
+.subheader p {
+  text-align: center;
+}
+.subheader a {
+  color:black;
+  text-decoration: underline;
+}
+.tag {
+  display: inline-block;
+  vertical-align: middle;
+  width:64%;
+  margin:0px 0 4px 0;
+  padding: 8px 12px;
+  text-align:center;
+  background-color: white;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 32px;
+  font-family: 'AvenirNext', serif;
+  font-style:normal;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 24px;
+  letter-spacing:-.1px;
+}
 .text-muted {
   font-family: 'AvenirNext', sans-serif;
   font-style: normal;
@@ -176,11 +205,16 @@ body{
   color:#D4D4D4 !important;
   margin: auto;
 }
-
 .footer {
   margin:auto;
 }
-
+.vl {
+  border-left: 1.35px solid black;
+  height: 224px;
+  margin-left:50%;
+  padding-top:16px;
+  top: 0;
+}
 
 body {
   color: #000;
@@ -217,7 +251,6 @@ h2{
   font-weight: 400;
   font-size:36px;
   line-height:42px;
-  margin-bottom:-1px;
 }
 
 h3 {
@@ -281,6 +314,7 @@ p  {
   h2 {
     font-size:36px;
     line-height:45px;
+    margin-bottom:-1px;
   }
   h3 {
     padding-bottom:16px;
@@ -306,6 +340,9 @@ p  {
   }
   #nav_bar {
       visibility:visible;
+  }
+  .tag{
+    width:40%;
   }
   .text-muted {
     padding-top:10px;
@@ -341,20 +378,23 @@ p  {
   .navbar li:nth-child(4) {
     padding-bottom:0px;
   }
+  .back-to-top a {
+    font-size:28px;
+    line-height: 38px;
+  }
   .sticky-top {
       top: 94px;
       z-index: 100;
       position: fixed;
       width: 100%;
   }
-  .back-to-top a {
-    font-size:28px;
-    line-height: 38px;
+  .tag{
+    width:28%;
+    margin:0 4px 0 0;
   }
   .title {
     margin:32px 0 0 0;
   }
-
   h1 {
     font-size:45px;
     line-height:56px;
@@ -371,7 +411,6 @@ p  {
   .revinia {
     padding-top:0px;
   }
-
   #navbarNavAltMarkup .navbar-nav > li {
     display: inline-block;
   }
@@ -412,8 +451,8 @@ p  {
   }
   .hero-content h1 {
     padding-top:175px;
-    margin:0 0 48px 0;
     width:100%;
+    margin-bottom:56px;
   }
 
 }
