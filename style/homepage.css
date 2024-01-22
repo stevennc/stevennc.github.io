@@ -344,7 +344,9 @@ p  {
     width:100%;
     margin-left:-15px;
   }
-
+.hero-content h3 {
+  padding-bottom:20px;
+}
   .navbar-brand {
     padding-left:20px;
   }
