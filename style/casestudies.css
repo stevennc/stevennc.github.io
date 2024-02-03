@@ -436,15 +436,21 @@ p  {
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
+  .body_copy {
+    max-width:95%;
+    margin:auto;
+  }
   .main-content {
-    max-width:1199px;
+    max-width:98%;
     margin:auto;
   }
   .navbar {
     padding-right:0px;
     max-width:100%;
   }
-
+  .navbar-brand {
+    padding-left:0px;
+  }
   h1 {
     font-size:56px;
     line-height:71px;
@@ -454,11 +460,10 @@ p  {
     width:100%;
     margin-bottom:56px;
   }
-
 }
 
 @media (min-width: 1300px) {
   .container {
-    max-width:1280px;
+    max-width:95%;
   }
 }

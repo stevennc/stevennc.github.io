@@ -33,13 +33,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link active" href="work.html">DIGITAL</a>
+                <a class="nav-link active" href="digital.html">DIGITAL</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="casestudies.html">UX/UI</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="about.html">INFO</a>
+                <a class="nav-link" href="info.html">INFO</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" href="archive.html">ARCHIVE</a>
@@ -65,7 +65,10 @@
     <section class="animated fadeInDown header">
       <div class="title">
           <h1>THRIVE CAUSEMETICS</h1>
-          <h5>CASE STUDY</h5>
+          <div class="tag desktop_only">
+            <i>Case Study</i>
+          </div>
+          <h5 class="mobile_only">CASE STUDY</h5>
       </div>
     </section>
 
@@ -74,11 +77,21 @@
         <div class="row">
           <div class="col-lg-8">
             <h2>Testing a new mobile shopping experience for increased conversion</h2>
-            <p><span class="pbold">Overview:</span><br>
-              Thrive Causemetics is a direct-to-consumer cosmetics brand focused on makeup and skincare. With a new line of products set to launch for the following year, their team wanted us to see if there were any UX or UI improvements to their Sets Product Details Page (PDP).
-            <br><br>
-            <span class="pbold">Results:</span><br>After a discovery and design phase, I tested a new purchasing user flow using InVision and userlytics.com. With the results, I iterated and <span class="pbold">improved the design which led to a +44% eCommerce conversion rate. </span>
-            </p>
+            <div class="overview">
+              <div class="tag">
+                <i>Overview</i>
+              </div>
+              <p>Thrive Causemetics is a direct-to-consumer cosmetics brand focused on makeup and skincare. With a new line of products set to launch for the following year, their team wanted us to see if there were any UX or UI improvements to their Sets Product Details Page (PDP).
+              </p>
+            </div>
+            <div class="results">
+              <div class="tag">
+                <i>Results</i>
+              </div>
+              <!-- <h4>Results:</h4> -->
+              <p>After a discovery and design phase, I tested a new purchasing user flow using InVision and userlytics.com. With the results, I iterated and <span class="pbold">improved the design which led to a +44% eCommerce conversion rate. </span>
+              </p>
+            </div>
           </div>
           <div class = "col-lg-1 d-sm-none d-lg-block">
             <span class= "spacer"></span>
@@ -255,7 +268,9 @@
       </div>
 
       <div class = "user-feedback">
-        <h5>USER TESTING NOTES</h5>
+        <div class="tag">
+          <i>User Testing Notes</i>
+        </div>
           <div class= "desktop_only images">
           <img src="images/Thrive_UserNotes.png"
            alt="User Notes from testing"></img>
@@ -267,7 +282,9 @@
       </div>
 
       <div class = "user-feedback">
-        <h5>DESIGN NOTES AND UPDATES</h5>
+        <div class="tag">
+          <i>Design Notes and Updates</i>
+        </div>
         <div class="images">
           <img src="images/Thrive_DesignUpdates.png"
           alt="Design Updates"></img>

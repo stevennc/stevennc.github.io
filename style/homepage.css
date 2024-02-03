@@ -133,6 +133,10 @@ body{
   text-decoration: none;
 }
 
+.desktop_only a {
+  text-decoration: none;
+}
+
 .navbar li {
   margin:auto;
   padding:21px 0 21px 0;
@@ -181,7 +185,7 @@ body{
 }
 
 .thanks {
-  margin-top:96px;
+  margin-top:72px;
   margin-bottom:20px;
 }
 
@@ -349,11 +353,14 @@ p  {
     width:100%;
     margin-left:-15px;
   }
-.hero-content h3 {
+  .hero-content h3 {
   padding-bottom:20px;
-}
+  }
   .navbar-brand {
     padding-left:20px;
+  }
+  .overview img {
+    margin: 40px 0 20px 0;
   }
   .overview video {
     margin: 40px 0 16px 0;
@@ -366,6 +373,9 @@ p  {
   }
   .text-muted {
     padding-top:10px;
+  }
+  .thanks {
+    margin-top:120px;
   }
   .footer-alt {
     text-align:right !important;
@@ -411,9 +421,6 @@ p  {
     font-size:28px;
     line-height: 38px;
   }
-  .thanks {
-    margin-top:120px;
-  }
   .title {
     padding:32px 0 32px 0;
   }
@@ -458,12 +465,15 @@ p  {
 @media (min-width: 1200px) {
   .main-content {
     padding-top:0px;
-    max-width:1199px;
+    max-width:95%;
     margin:auto;
   }
   .navbar {
     padding-right:0px;
     max-width:100%;
+  }
+  .navbar-brand {
+    padding-left:0px;
   }
   .tag {
     width:24%;
@@ -489,7 +499,7 @@ p  {
 
 @media (min-width: 1300px) {
   .container {
-    max-width:1280px;
+    max-width:95%;
   }
   .hero-content h1 {
     margin-left:15px;

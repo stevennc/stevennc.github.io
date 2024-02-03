@@ -71,7 +71,7 @@ html {
   overflow-x: hidden;
   overflow-y:auto;
 }
-/* 
+/*
 a:hover {
  cursor: url('https://raw.githubusercontent.com/coob113/fancy-cursors/master/pixelated2.png') 23 0, auto !important;
 }
@@ -215,12 +215,38 @@ margin:0;
   font-size: 16px;
   line-height: 24px;
 }
-
+.results {
+  padding-top:4px;
+  padding-bottom:8px;
+}
 .roles {
   background-color: #FAFAFA;
   padding: 16px;
 }
-
+.title .tag {
+  margin:auto;
+  width:calc((100% / 11) * 2);
+}
+.tag {
+  width:auto;
+  padding: 8px 12px;
+  text-align:center;
+  background-color: white;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 32px;
+  font-family: 'AvenirNext', serif;
+  font-style:normal;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 24px;
+  letter-spacing:-.1px;
+  margin-top:16px;
+  margin-bottom:8px;
+}
+.user-feedback .tag {
+  margin:auto;
+}
 .text-muted {
   font-family: 'AvenirNext', sans-serif;
   font-style: normal;
@@ -280,7 +306,7 @@ h1 {
   font-family: 'EditorialNew','AvenirNext', sans-serif;
   font-style:normal;
   font-weight: 400;
-  font-size:36px;
+  /* font-size:36px; */
   line-height:50px;
 }
 
@@ -320,7 +346,6 @@ h5 {
   line-height: 22px;
   color: #9E9E9E;
   letter-spacing: .2px;
-  margin: -10px 0 5px 0;
 }
 
 #nav_bar {
@@ -402,6 +427,9 @@ h5 {
   .right-section {
     margin:48px 0 48px 0;
   }
+  .tag{
+    width:40%;
+  }
   .left-section {
     margin:48px 0 48px 0;
   }
@@ -475,10 +503,12 @@ h5 {
     font-size:28px;
     line-height: 38px;
   }
+  .tag{
+    width:32%;
+  }
   .title {
     padding:32px 0 32px 0;
   }
-
   .subheader h3 {
     font-size: 20px;
     line-height: 28px;
@@ -526,7 +556,7 @@ h5 {
   h5 {
     font-size:15px;
     line-height: 22px;
-    margin-top:-4px;
+  margin: -4px 0 5px 0;
   }
 
   h6 {
@@ -564,12 +594,15 @@ h5 {
 @media (min-width: 1200px) {
   .main-content {
     padding-top:0px;
-    max-width:1199px;
+    max-width:95%;
     margin:auto;
   }
   .navbar {
     padding-right:0px;
     max-width:100%;
+  }
+  .navbar-brand {
+    padding-left:0px;
   }
   .goals {
     max-width:1399.98px;
@@ -587,7 +620,9 @@ h5 {
     font-size: 30px;
     line-height: 28px;
   }
-
+  .tag {
+    width:36%;
+  }
   h5 {
     font-size:15px;
     line-height: 22px;
@@ -596,7 +631,7 @@ h5 {
 
 @media (min-width: 1300px) {
   .container {
-    max-width:1280px;
+    max-width:95%;
   }
   .hero-content img {
     padding-top:30px;

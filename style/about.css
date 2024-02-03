@@ -131,9 +131,13 @@ body{
   font-family: inherit;
   font-style:normal;
   font-weight: 400;
-  text-decoration: underline;
-  color:#000000;
+  text-decoration: none;
+  color:#FFFFFF;
   font-size:16px;
+}
+
+.overview a:hover {
+  text-decoration: underline;
 }
 
 .navbar li {
@@ -398,14 +402,16 @@ p  {
 @media (min-width: 1200px) {
   .main-content {
     padding-top:0px;
-    max-width:1199px;
+    max-width:95%;
     margin:auto;
   }
   .navbar {
     padding-right:0px;
     max-width:100%;
   }
-
+  .navbar-brand {
+    padding-left:0px;
+  }
   h1 {
     font-size:56px;
     line-height:71px;
@@ -420,7 +426,7 @@ p  {
 
 @media (min-width: 1300px) {
   .container {
-    max-width:1280px;
+    max-width:95%;
   }
   .hero-content h1 {
     font-size:56px;
