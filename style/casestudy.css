@@ -140,7 +140,15 @@
 .body_copy img {
   border-radius: 12px;
 }
-
+.text-muted {
+  font-family: 'AvenirNext', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+  color:#D4D4D4 !important;
+  margin: auto;
+}
 #final {
   border-radius: 12px !important;
   overflow:hidden;
