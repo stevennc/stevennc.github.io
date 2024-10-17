@@ -478,7 +478,7 @@ h5 {
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
   .navbar {
-    padding-right:40px
+    padding-right:40px;
   }
   .goals {
     max-width:1199.98px;
