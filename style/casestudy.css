@@ -133,8 +133,8 @@
   color:#F5F5F5;
 }
 .body_copy a:hover {
-  background-color:yellow;
-  color: black;
+  background-color:none;
+  color: white;
   text-decoration: none;
 }
 .body_copy img {
@@ -346,8 +346,8 @@ h4 {
   line-height: 16px;
 }
 .new_nav a:hover {
-  background-color:yellow;
-  color: black;
+  background-color:none;
+  color: white;
   text-decoration: none;
 }
 video {
